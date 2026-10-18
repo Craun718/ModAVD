@@ -1,2 +1,5 @@
 # 有些补丁改的是 CRLF 文件，补丁里那些行本来就带 CR，必须原样保存，不做换行符转换
 *.patch -text
+
+scripts/*.py text eol=lf
+scripts/*.json text eol=lf

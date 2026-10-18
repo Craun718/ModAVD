@@ -1,0 +1,29 @@
+[
+  {
+    "base": "f0c183f1cc7456ecd6f3607f2f47893768ae4334",
+    "dir": "qemu/fixq30",
+    "head": "5aedc70819651ef386cef810afa6c2be3c028467",
+    "repo": "external/qemu",
+    "upstream": "platform/external/qemu",
+    "count": 55,
+    "tree": "b02675308b3373b734ca980a1492e0efe24c4970"
+  },
+  {
+    "base": "04d0287b04f72d908c621a919fa2ea5c563b1a66",
+    "dir": "gfxstream/fixq28",
+    "head": "d027890c4799a8537ce1e981fec784a99a269ade",
+    "repo": "hardware/google/gfxstream",
+    "upstream": "platform/hardware/google/gfxstream",
+    "count": 22,
+    "tree": "b8c3158178d65ac36139eb29944df3045fe3d608"
+  },
+  {
+    "base": "dd7db6790d73210abaef36a04f2a2bd52cf22b89",
+    "dir": "crashpad/module-version22",
+    "head": "377d2d398368c38d43f4ecbca084c89a68c10530",
+    "repo": "external/crashpad",
+    "upstream": "platform/external/crashpad",
+    "count": 1,
+    "tree": "0a3c056231f5257034514ae8d83192de388351f0"
+  }
+]

@@ -1,0 +1,2782 @@
+{
+  "exceptions": [
+    {
+      "file_sha256": "f67124dad5009016dd1fce379d79b20ea93a46cefb5759002f3fa149d50b018f",
+      "rule": "local-path",
+      "string_sha256": "bf80e5f820813abd807d9cd5d71d1d0d02cd888ec41c2112230081bbc01e21cb",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "e4cb99dff9377deccca3841925b303d307b3fc84e851b2b810005a7c426f20c6",
+      "rule": "realname",
+      "string_sha256": "48f6f224acfd2c0b19a2949c491af874876fdff17de4513c1313eec88c28df46",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "e78e7cb1930ac4da17ff8b151984b3d2cfc7c3ee854bf8fd92aabb84020d1e0f",
+      "rule": "user-path",
+      "string_sha256": "c045f8b51ae6ca24e340ec663fa6c59a1501e35e2e7cb53ae63de0c73ee9dacb",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "99471ed3b7830d18bc1fe68718da70a9283c5427e7b4a5a62c7efc789c24d467",
+      "rule": "user-path",
+      "string_sha256": "74077814f252c1f81b7ebb2a7faca0fa966b9378332e1535476ecaa6946e0e6d",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "e9d6ec68b17985e73798bed7d93e7f0a965f7454f0a6862f080b16f585dc99dd",
+      "rule": "user-path",
+      "string_sha256": "244d8845bce9d312b1ea7bb2d78068de452cb327ee6877355a3c56e96e64fffd",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "e9d6ec68b17985e73798bed7d93e7f0a965f7454f0a6862f080b16f585dc99dd",
+      "rule": "user-path",
+      "string_sha256": "8d588c9443e53c968560780392d897b602adb2bfd643d8607f820063ba56ac97",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "e9d6ec68b17985e73798bed7d93e7f0a965f7454f0a6862f080b16f585dc99dd",
+      "rule": "user-path",
+      "string_sha256": "61ced92382dd65ea67b178538f1d4f14c34b7393a5e8d22e58af9d31c159360f",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "e9d6ec68b17985e73798bed7d93e7f0a965f7454f0a6862f080b16f585dc99dd",
+      "rule": "user-path",
+      "string_sha256": "00f48d03662ddf716b30284d969210c4957a97f6b209779d50b67273dedf3fda",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "e9d6ec68b17985e73798bed7d93e7f0a965f7454f0a6862f080b16f585dc99dd",
+      "rule": "user-path",
+      "string_sha256": "76a9e0196d364f5aa51426ca7714b7cbd6c95a5758b98e674b316c49b0ba7499",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "e9d6ec68b17985e73798bed7d93e7f0a965f7454f0a6862f080b16f585dc99dd",
+      "rule": "user-path",
+      "string_sha256": "b9d1134d416fee89c4635bfc22e79d3b192b6d13a2f29dd29d1ce995335f757a",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "e9d6ec68b17985e73798bed7d93e7f0a965f7454f0a6862f080b16f585dc99dd",
+      "rule": "user-path",
+      "string_sha256": "c26b38c6441f39bbd00f96e2c9898dcd55e9a5d3ee54d82663ac91feafe68321",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "e9d6ec68b17985e73798bed7d93e7f0a965f7454f0a6862f080b16f585dc99dd",
+      "rule": "user-path",
+      "string_sha256": "79b2e57c0c3d205510b5790d7575ce5b7b9a85c258f0ed12898276ba6811b003",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "b0026d55bbd7dc44beb27ac71d6bbd8c6ac9592b7be1d0ed21dd8b9c8703fb1a",
+      "rule": "local-path",
+      "string_sha256": "4f05640db3624a6c590415a929cfcbfa34a3e809ee49d40fbd18c3438c56d7e3",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "b0026d55bbd7dc44beb27ac71d6bbd8c6ac9592b7be1d0ed21dd8b9c8703fb1a",
+      "rule": "local-path",
+      "string_sha256": "4866cc07ad82a3ecd8a16a87bb8ca97e1426556ae44bbeec095a85d88f674b1c",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "b0026d55bbd7dc44beb27ac71d6bbd8c6ac9592b7be1d0ed21dd8b9c8703fb1a",
+      "rule": "local-path",
+      "string_sha256": "2ebd8124ed77a50c110bb91fc71a3da6dd1bc66bb303dfa78fdf59631481e09e",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "b0026d55bbd7dc44beb27ac71d6bbd8c6ac9592b7be1d0ed21dd8b9c8703fb1a",
+      "rule": "local-path",
+      "string_sha256": "1aa9135b038a3ac0aa95cac4d881e94fb9aa4e4475e40ee6b2f7421c91513d53",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "b0026d55bbd7dc44beb27ac71d6bbd8c6ac9592b7be1d0ed21dd8b9c8703fb1a",
+      "rule": "local-path",
+      "string_sha256": "c8aba94b55bf3e09b641e2187978007a02771f9e89c4e1f2e25d747167157771",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "b0026d55bbd7dc44beb27ac71d6bbd8c6ac9592b7be1d0ed21dd8b9c8703fb1a",
+      "rule": "local-path",
+      "string_sha256": "448825b079a59ee20df8472412f92d4ea98326db139ede58159a7d9dc784d397",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "path": "sdk/emulator/qemu/windows-x86_64/qemu-system-x86_64-headless.exe",
+      "rule": "user-path",
+      "string_sha256": "63c7fab47ed1c7de8254ff1d39431b4f3dc1d738364fc512aadfd62d6c9e30f5",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "sdk/emulator/qemu/windows-x86_64/qemu-system-x86_64-headless.exe",
+      "rule": "user-path",
+      "string_sha256": "24b0b93b035f24e9d5bd1c7ceb0e8645ba08addfe1dfddc900bf5811fa159c49",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "sdk/emulator/qemu/windows-x86_64/qemu-system-x86_64-headless.exe",
+      "rule": "user-path",
+      "string_sha256": "48b6ad5324cdfb93e6917010ac1449465b469d8993d65735c9ef43fed236def5",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "sdk/emulator/qemu/windows-x86_64/qemu-system-x86_64-headless.exe",
+      "rule": "user-path",
+      "string_sha256": "c7e8123b1fae630677e7263566e82df84de939ce4ff93b4afd73f6280bba71a7",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "sdk/emulator/qemu/windows-x86_64/qemu-system-x86_64.exe",
+      "rule": "user-path",
+      "string_sha256": "63c7fab47ed1c7de8254ff1d39431b4f3dc1d738364fc512aadfd62d6c9e30f5",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "sdk/emulator/qemu/windows-x86_64/qemu-system-x86_64.exe",
+      "rule": "user-path",
+      "string_sha256": "24b0b93b035f24e9d5bd1c7ceb0e8645ba08addfe1dfddc900bf5811fa159c49",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "sdk/emulator/qemu/windows-x86_64/qemu-system-x86_64.exe",
+      "rule": "user-path",
+      "string_sha256": "48b6ad5324cdfb93e6917010ac1449465b469d8993d65735c9ef43fed236def5",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "sdk/emulator/qemu/windows-x86_64/qemu-system-x86_64.exe",
+      "rule": "user-path",
+      "string_sha256": "c7e8123b1fae630677e7263566e82df84de939ce4ff93b4afd73f6280bba71a7",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/boringssl/src/pki/testdata/verify_certificate_chain_unittest/policies-inhibit-anypolicy-by-root-ok/keys/Intermediate.key",
+      "rule": "realname",
+      "string_sha256": "33cdeec0a198213a6b1937660411fd8067f7f4440773848ad7c3580d2f837d4b",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/boringssl/src/pki/testdata/verify_certificate_chain_unittest/policies-inhibit-mapping-by-root-fail/keys/Intermediate.key",
+      "rule": "realname",
+      "string_sha256": "7df620eae656b6d01dff2b285e4a865fde0e964871ca7f134f24e7265df4bd35",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/boringssl/src/pki/testdata/verify_certificate_chain_unittest/violates-pathlen-1-from-root/keys/Intermediate1.key",
+      "rule": "realname",
+      "string_sha256": "1f97640733ac6bcca21b532639e94d98ddaaa2f176ec321fa8ee940ea514e61e",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/boringssl/src/third_party/wycheproof_testvectors/ecdsa_secp256k1_sha256_bitcoin_test.json",
+      "rule": "realname",
+      "string_sha256": "87b236227893b2c7b0ac07cd54bb5810471fbf75740c8a1dbbed3c22eb42feeb",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/boringssl/src/third_party/wycheproof_testvectors/ecdsa_secp256k1_sha256_p1363_test.json",
+      "rule": "realname",
+      "string_sha256": "87b236227893b2c7b0ac07cd54bb5810471fbf75740c8a1dbbed3c22eb42feeb",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/boringssl/src/third_party/wycheproof_testvectors/ecdsa_secp256k1_sha256_p1363_test.json",
+      "rule": "realname",
+      "string_sha256": "f61c32c7a0d7fcedb875a30473a007a00cebdf54805742cf17b397b601f59367",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/boringssl/src/third_party/wycheproof_testvectors/ecdsa_secp256k1_sha256_test.json",
+      "rule": "realname",
+      "string_sha256": "87b236227893b2c7b0ac07cd54bb5810471fbf75740c8a1dbbed3c22eb42feeb",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/boringssl/src/third_party/wycheproof_testvectors/rsa_pkcs1_3072_test.json",
+      "rule": "realname",
+      "string_sha256": "4e2d44ad9fbeb3041a76ec4c98fb69bf68edad783ea93ceed3c3e9f4e32524b8",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/boringssl/src/third_party/wycheproof_testvectors/rsa_pkcs1_3072_test.json",
+      "rule": "realname",
+      "string_sha256": "634f469468b2a53cb915ae7d06b0cc3c7a30b88649085d3a798effe8b68a3191",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/boringssl/src/third_party/wycheproof_testvectors/x448_jwk_test.json",
+      "rule": "realname",
+      "string_sha256": "0f5871b007cf0c27b777d02eac0bacbf77a4427822e5f809667ade223c547000",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/boringssl/src/util/ar/testdata/windows/bar.cc.obj",
+      "rule": "user-path",
+      "string_sha256": "888e08729ad5fd3877a5fa888fc144d8f6d62e7d51d37b42fd9f8c774539efe1",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/boringssl/src/util/ar/testdata/windows/bar.cc.obj",
+      "rule": "user-path",
+      "string_sha256": "3df8a2f67a2e9d9eb35e1f68d436fc237f691c3e93cddb7b3804d728cb74817e",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/boringssl/src/util/ar/testdata/windows/bar.cc.obj",
+      "rule": "user-path",
+      "string_sha256": "ef109ed32a57cfa188092d41328411811d278d942d061cecebfdd23578ceff04",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/boringssl/src/util/ar/testdata/windows/foo.c.obj",
+      "rule": "user-path",
+      "string_sha256": "c17bc6ae1381ac2a113497a05f19c7138a404a93567d71e934c7aaaf1cef34f0",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/boringssl/src/util/ar/testdata/windows/foo.c.obj",
+      "rule": "user-path",
+      "string_sha256": "a4ec79ca4ec5f0c68457afb9ac3640ecf0fb763afd7ce5c4e0e749c5bca155e3",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/boringssl/src/util/ar/testdata/windows/foo.c.obj",
+      "rule": "user-path",
+      "string_sha256": "ef109ed32a57cfa188092d41328411811d278d942d061cecebfdd23578ceff04",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/boringssl/src/util/ar/testdata/windows/sample.lib",
+      "rule": "user-path",
+      "string_sha256": "888e08729ad5fd3877a5fa888fc144d8f6d62e7d51d37b42fd9f8c774539efe1",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/boringssl/src/util/ar/testdata/windows/sample.lib",
+      "rule": "user-path",
+      "string_sha256": "3df8a2f67a2e9d9eb35e1f68d436fc237f691c3e93cddb7b3804d728cb74817e",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/boringssl/src/util/ar/testdata/windows/sample.lib",
+      "rule": "user-path",
+      "string_sha256": "ef109ed32a57cfa188092d41328411811d278d942d061cecebfdd23578ceff04",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/boringssl/src/util/ar/testdata/windows/sample.lib",
+      "rule": "user-path",
+      "string_sha256": "c17bc6ae1381ac2a113497a05f19c7138a404a93567d71e934c7aaaf1cef34f0",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/boringssl/src/util/ar/testdata/windows/sample.lib",
+      "rule": "user-path",
+      "string_sha256": "a4ec79ca4ec5f0c68457afb9ac3640ecf0fb763afd7ce5c4e0e749c5bca155e3",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/curl/CHANGES",
+      "rule": "realname",
+      "string_sha256": "37b0a64207bc6cf03b842ef58ef9f9cf674c1f88aab535e21446070e49d5c556",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/curl/docs/THANKS",
+      "rule": "realname",
+      "string_sha256": "e53068a28046142d13758e5f3c05affcb321824e6a9b95f8783e7d89ffb52713",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "file_sha256": "5ef94d32151ca871dbe1ffc193f191bf59fd8d6ec7eae4fbe9c26c3760d10195",
+      "rule": "local-path",
+      "string_sha256": "8f0af7b84292fb026fac943844e4d7740d7d482e34a6b125b20174a479bfb99b",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "path": "external/glib/gio/gwin32appinfo.c",
+      "rule": "user-path",
+      "string_sha256": "0a7ea1a56448ef1383178b611dfb57f56bbe0b1476e33cca6f83528d9566ef3f",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/glib/gio/tests/g-file-info.c",
+      "rule": "user-path",
+      "string_sha256": "30ae27a8f26e4b82e075977f4a4b73c03a733783c3e54f5402d4272bdf88733d",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/glib/gio/tests/g-file-info.c",
+      "rule": "user-path",
+      "string_sha256": "31c423d5c3da41280753cce23b7f78a29019685d78d4f7887c01969410f9c262",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "file_sha256": "b36a5b046b05d48c81f4b33b748b316fe5200159c0710c4acf5e2c14691d2029",
+      "rule": "local-path",
+      "string_sha256": "97fe343ebf9bd9f3321feed8441b51269e33c931a3c33d1f0817feabced6ea2e",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "path": "external/google-breakpad/src/processor/testdata/tiny-exe-fastfail.dmp",
+      "rule": "user-path",
+      "string_sha256": "f487eb3a76e15633675722e85865898aeebd998f1b18b8e3eb0f4cce5574724e",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/google-breakpad/src/processor/testdata/tiny-exe-fastfail.dmp",
+      "rule": "user-path",
+      "string_sha256": "6fa75013e2ad77dbaa0d274f3565e1eded5cfdbf5f5f547b48630897a7a331d1",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/google-breakpad/src/processor/testdata/tiny-exe-fastfail.dmp",
+      "rule": "user-path",
+      "string_sha256": "9ebf1612295c5161e85f48cf3204a16edb9ba1a733eede232fce2ca298047467",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/google-breakpad/src/processor/testdata/tiny-exe-fastfail.dmp",
+      "rule": "user-path",
+      "string_sha256": "da0f89abfb284a46a903e0786b04ab6bf99af82ba8158cf0d8dab5e2700e3e88",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/google-breakpad/src/processor/testdata/tiny-exe-with-cet-xsave.dmp",
+      "rule": "user-path",
+      "string_sha256": "c6a3dc68addea965c13267dd18ca49607b450dccc559bb23197ca71087b9dd51",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/google-breakpad/src/processor/testdata/tiny-exe-with-cet-xsave.dmp",
+      "rule": "user-path",
+      "string_sha256": "0e51ab3d09cb3d6ec4b91964d499c42ed8ff4a06caf17791d87b87d411250712",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/google-breakpad/src/processor/testdata/tiny-exe-with-cet-xsave.dmp",
+      "rule": "user-path",
+      "string_sha256": "1208c0848903c03de069e85f209c9c14724fe3a5baa3ac4b807dca5baf94c945",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/google-breakpad/src/processor/testdata/tiny-exe-with-cet-xsave.dmp",
+      "rule": "user-path",
+      "string_sha256": "c49f114dc504e8dda203bdb1039f969587d62af7d36fab01cea4899030123b64",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/google-breakpad/src/processor/testdata/tiny-exe-with-cet-xsave.dmp",
+      "rule": "user-path",
+      "string_sha256": "61d6e858aa05013ae9914d562b01a9780e485288f8f5d76516cd09702d421586",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/google-breakpad/src/processor/testdata/tiny-exe-with-cet-xsave.dmp",
+      "rule": "user-path",
+      "string_sha256": "b9ab89f321f99cc0c9a8b1b468712f39f47e3bc841829d1ef4e2e34e5d992d97",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/google-breakpad/src/processor/testdata/tiny-exe-with-cet-xsave.dmp",
+      "rule": "user-path",
+      "string_sha256": "db7b442f8167b110672d820de24d8c308089548e2ca661a0cda95652391ce146",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/google-breakpad/src/processor/testdata/tiny-exe-with-cet-xsave.dmp",
+      "rule": "user-path",
+      "string_sha256": "88cd8862460c106a57606e346790310bda6886ffe694e36b8a114d99546a5574",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/google-breakpad/src/processor/testdata/tiny-exe-with-cet-xsave.dmp",
+      "rule": "user-path",
+      "string_sha256": "fad8abfa2acd5bd90decaea41d8b10cd8ee3a7e11d5c58a3b9a021fa18dd315f",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "file_sha256": "8e280c254db642b7a520c622e2189fefdafef30746d2e9c0c320d2079d576155",
+      "rule": "local-path",
+      "string_sha256": "90af950665499928b798692e630e2b8b8bb2ef904d37f1d9347c5b47b71d23d2",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "5af8a1e9162e0d21e68b71c34b1303b177e5dbffc059c22046dbe2fe5fbb3465",
+      "rule": "local-path",
+      "string_sha256": "85091d7ccae8e2f10b05985e6fdce2951fc6b7f66320b39aadaf60cb1da3bfda",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "path": "external/google-breakpad/src/tools/windows/dump_syms/testdata/pe_only_symbol_test.dll",
+      "rule": "user-path",
+      "string_sha256": "407b0204e282f6821c814ce91cc529fe9180c4bdc39447811896687bbc2dcfc3",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/grpc/doc/interop-test-descriptions.md",
+      "rule": "realname",
+      "string_sha256": "4767247523f1c67fb3e405880b4c187f479b44e16beadf6bdaa35e41e5fed1aa",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/grpc/etc/roots.pem",
+      "rule": "realname",
+      "string_sha256": "7101b3fe8d1270ee1dad858c551679607475f27c58a71277721f80b6b457c432",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/grpc/third_party/toolchains/rbe_windows_vs2022_bazel7/cc/BUILD",
+      "rule": "user-path",
+      "string_sha256": "749e16f711e6f058f633e0fcfd4a9383e324f1569ac8fd79a7f4ce7845f0e7d5",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/libpng/AUTHORS",
+      "rule": "realname",
+      "string_sha256": "9357549365d7ea90628bb77370d4f9eceb007edbdadb6b2e5b65af35005bbfc0",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/libpng/AUTHORS",
+      "rule": "realname",
+      "string_sha256": "52ccfe45d546a73059a1905717d8a6f79e0801f4bd759d903a66ec1c453fe587",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/libpng/AUTHORS",
+      "rule": "realname",
+      "string_sha256": "b4cc881425599456c92a943d01bbb8d56b3add643543e23a93d7a0962d8954be",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/libpng/AUTHORS",
+      "rule": "realname",
+      "string_sha256": "7fe380494d520ec4cb41b736657609ec8a9e9e1cc97613bd8a0db088322cdc5e",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/libpng/CHANGES",
+      "rule": "realname",
+      "string_sha256": "4a4088cce8fa10bdebafe80d34583de4bf981e6f484259ea87998e30573bc5d8",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/libpng/CHANGES",
+      "rule": "realname",
+      "string_sha256": "4bd894d0eb482bfb49bbcc6bcba1031150295048f270892dc1948af7e710e146",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/libpng/CHANGES",
+      "rule": "realname",
+      "string_sha256": "c427b9245fefcdea60b5292696ae3187aa3ce912b74a69208ceaf1a77e293a5c",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/libpng/riscv/filter_rvv_intrinsics.c",
+      "rule": "realname",
+      "string_sha256": "1b352bb4d52e69c81519d8e7674ca4da688b60adf6bb3eb5ef9df9d73de38e8c",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "file_sha256": "3b712b887cb3f08b407a9ba1d5f9c8ba5fae4b6557fa47b84895acc270830e9b",
+      "rule": "local-path",
+      "string_sha256": "6e2a317f859d4d7c66182c1c7fdaea8ee4b87636af7337bd9805b4c299003f7a",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "3b712b887cb3f08b407a9ba1d5f9c8ba5fae4b6557fa47b84895acc270830e9b",
+      "rule": "local-path",
+      "string_sha256": "1c6794c4826e0f3d1e2f99d762ad3703b50a4823c3087b6a3b4302f6da9eedc4",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "3b712b887cb3f08b407a9ba1d5f9c8ba5fae4b6557fa47b84895acc270830e9b",
+      "rule": "local-path",
+      "string_sha256": "1abfb47e41c65822cd600cfbf6ddf6810428b8c3f75adb23c94be53c771745c3",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "d4bcdce1ec0cf54a2b7d40535f27a63ceaaec1a680dbce2c605d6da1bfbcd9cb",
+      "rule": "local-path",
+      "string_sha256": "6eedc78766276e24be56c968517dc25d832d107f65c274a2626cb7045f885688",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "path": "external/qemu/MAINTAINERS",
+      "rule": "realname",
+      "string_sha256": "8df2f4b7a910ddf99c61380a021b504864df24beb3f8195d5b54332206e51bb4",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/qemu/MAINTAINERS",
+      "rule": "realname",
+      "string_sha256": "c60969f344d8ae7ebb8898e27981a5411139daac2c3bd17154615fea791d43ea",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/qemu/android/android-emu-base/android/base/files/PathUtils_unittest.cpp",
+      "rule": "user-path",
+      "string_sha256": "009e5b8ac27d5fdca6b86504e9637180fee6df4be0d5beaf9efbc376e08cb7de",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/qemu/android/android-emu-base/android/base/files/PathUtils_unittest.cpp",
+      "rule": "user-path",
+      "string_sha256": "deb38e346c47f3cd1dc96c3f3ecf8b7b49a62ea1c7d52fb694274e745e892c33",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/qemu/android/android-emu/android/ver/src/third_party/tinygltf/tiny_gltf.h",
+      "rule": "user-path",
+      "string_sha256": "d5a8207f2d34b9c9754fef78c3f440e0ee1c516f84588f3ad1db5f05405a6ae8",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/qemu/android/data/ca-bundle.pem",
+      "rule": "realname",
+      "string_sha256": "48f6f224acfd2c0b19a2949c491af874876fdff17de4513c1313eec88c28df46",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/qemu/android/scripts/WinRegMemoryDumpSettings.py",
+      "rule": "user-path",
+      "string_sha256": "88169fc14b98319948a2f61fc794bda26df18749ccc073f48691b13bc6ff2eeb",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/qemu/android/third_party/tink/wycheproof/testvectors/ecdsa_secp256k1_sha256_p1363_test.json",
+      "rule": "realname",
+      "string_sha256": "b870d647bd5cd00081924cae10e25d8656d3ef463b0c51f0a372b4b9a4012a6c",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/qemu/android/third_party/tink/wycheproof/testvectors/ecdsa_secp256k1_sha256_p1363_test.json",
+      "rule": "realname",
+      "string_sha256": "7eabe9b4f2257d849a3ff82decf01e9fc560f2f4b9c3ef17d99aa2853c0e78da",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/qemu/android/third_party/tink/wycheproof/testvectors/ecdsa_secp256k1_sha256_test.json",
+      "rule": "realname",
+      "string_sha256": "7eabe9b4f2257d849a3ff82decf01e9fc560f2f4b9c3ef17d99aa2853c0e78da",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/qemu/android/third_party/tink/wycheproof/testvectors/ecdsa_test.json",
+      "rule": "realname",
+      "string_sha256": "7eabe9b4f2257d849a3ff82decf01e9fc560f2f4b9c3ef17d99aa2853c0e78da",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/qemu/android/third_party/tink/wycheproof/testvectors/rsa_pkcs1_2048_test.json",
+      "rule": "realname",
+      "string_sha256": "80ba94398541547388b105ab6425d8db8276a6e1c33176732e9061b84f55724c",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/qemu/android/third_party/tink/wycheproof/testvectors/rsa_pkcs1_3072_test.json",
+      "rule": "realname",
+      "string_sha256": "56d8ce0046cb69d79689e66220e14faa6cae842b87e0f27c98c7f2b43cff59d5",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/qemu/android/third_party/tink/wycheproof/testvectors/x448_jwk_test.json",
+      "rule": "realname",
+      "string_sha256": "acd8071f6b603a32c76745ddb7b435908de4a52e9ea2685edc66c71bcc4c1cbe",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/qemu/hw/arm/virt-acpi-build.c",
+      "rule": "realname",
+      "string_sha256": "1fe74a4b3ddf4e8429c48336992cbafc2f3a9a39327f37cc6b859216a8fdfed5",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/qemu/hw/gpio/gpio_key.c",
+      "rule": "realname",
+      "string_sha256": "d389725771e0f958a45035604afd412664b7f72364da4f9943e63c22777727c5",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/qemu/hw/s390x/s390-pci-bus.c",
+      "rule": "realname",
+      "string_sha256": "1b50c4458456e4e85c15d18b312131edb3845df3fa74538360ab8ebeb2f5c41a",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/qemu/hw/s390x/s390-pci-bus.h",
+      "rule": "realname",
+      "string_sha256": "1b50c4458456e4e85c15d18b312131edb3845df3fa74538360ab8ebeb2f5c41a",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/qemu/hw/s390x/s390-pci-inst.c",
+      "rule": "realname",
+      "string_sha256": "1b50c4458456e4e85c15d18b312131edb3845df3fa74538360ab8ebeb2f5c41a",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/qemu/hw/s390x/s390-pci-inst.h",
+      "rule": "realname",
+      "string_sha256": "1b50c4458456e4e85c15d18b312131edb3845df3fa74538360ab8ebeb2f5c41a",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "file_sha256": "8dc9b3ecefe73cbb942793b198e139fa78f48e5dcc62b476220c0663f8f94e7a",
+      "rule": "local-path",
+      "string_sha256": "c2f7a408704d5dddcfbb9d156981e18728439db3354f4a526c1f02e4a989ce11",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "8dc9b3ecefe73cbb942793b198e139fa78f48e5dcc62b476220c0663f8f94e7a",
+      "rule": "local-path",
+      "string_sha256": "f5c7c3cd887ac65753f26dbd2832f097b573c41d5ac8573fba3dedbae46fa99d",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "1a01bb89e1da532e12305a772fd78dfc832aeda77af2f7a69035ad4476e8daa2",
+      "rule": "local-path",
+      "string_sha256": "862b397606b5dc080acf7e963c0ba70261e8edad0d7493f513ce949af712bcda",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "9da948fcb65cdd3b6d7b57bc103fe4c2303b0968d8695bab6eea4fff51e1d141",
+      "rule": "local-path",
+      "string_sha256": "bf80e5f820813abd807d9cd5d71d1d0d02cd888ec41c2112230081bbc01e21cb",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "9da948fcb65cdd3b6d7b57bc103fe4c2303b0968d8695bab6eea4fff51e1d141",
+      "rule": "local-path",
+      "string_sha256": "de7db1823d27d623252cafac2531e194339b4480d37ea5a995861e8a3f9df751",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "path": "external/webrtc/third_party/libaom/source/libaom/AUTHORS",
+      "rule": "realname",
+      "string_sha256": "1bfff9f35de8fbdde17bb42eab1ba9cb8222d91272a5a461a03291ff770c68ab",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/webrtc/third_party/libaom/source/libaom/AUTHORS",
+      "rule": "realname",
+      "string_sha256": "ebab639e4b6d0a13ebd445f8fd6968b9096ff1d639b4877d2bfb1f45e688111e",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "external/webrtc/third_party/libaom/source/libaom/AUTHORS",
+      "rule": "realname",
+      "string_sha256": "e4593ea7f32dade6dc1fac34d6da1e35beb3cc6cf9656fcbeeee489336266e60",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "ffmpeg-4.4.2/doc/examples/hw_decode.c",
+      "rule": "realname",
+      "string_sha256": "7befde786dafe1b28f843339adc505f3d0def3643ce2cdb552262b8c37bd68c6",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "ffmpeg-4.4.2/MAINTAINERS",
+      "rule": "realname",
+      "string_sha256": "47378684fa19392b02ac60e774c05471b53913c440dd05507360a32c5ba89294",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "ffmpeg-4.4.2/libavutil/dovi_meta.c",
+      "rule": "realname",
+      "string_sha256": "0bd565d942570bc8d38dc702dc17bb2d88200befdfea7cf631e6461f138086d9",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "ffmpeg-4.4.2/.mailmap",
+      "rule": "realname",
+      "string_sha256": "b5b4b8a943017b5ca23173447c6a6cd36e36ab97ecbece8d9aeb2d4af9b49f89",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "ffmpeg-4.4.2/.mailmap",
+      "rule": "realname",
+      "string_sha256": "203ae9b643e67b3af373151c9392b3e7beee65f3c166e2c41e100c9a79449abd",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "ffmpeg-4.4.2/.mailmap",
+      "rule": "realname",
+      "string_sha256": "2539e86f07112b5a4e5d63e73b7428f0592ab9e52aa7df250fbadb4297257c04",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "ffmpeg-4.4.2/.mailmap",
+      "rule": "realname",
+      "string_sha256": "c4232e28f64cb0738caa0d17616c3a24f19f99f32c1260aec38c0b04143e2d18",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "glib-2.82.2/gio/gwin32appinfo.c",
+      "rule": "user-path",
+      "string_sha256": "0a7ea1a56448ef1383178b611dfb57f56bbe0b1476e33cca6f83528d9566ef3f",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "glib-2.82.2/gio/tests/g-file-info.c",
+      "rule": "user-path",
+      "string_sha256": "30ae27a8f26e4b82e075977f4a4b73c03a733783c3e54f5402d4272bdf88733d",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "glib-2.82.2/gio/tests/g-file-info.c",
+      "rule": "user-path",
+      "string_sha256": "31c423d5c3da41280753cce23b7f78a29019685d78d4f7887c01969410f9c262",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "file_sha256": "6dc809190e6c4ced28ccb272c34b830bb885281b655ce3a7c7f5a4b57890de0f",
+      "rule": "local-path",
+      "string_sha256": "97fe343ebf9bd9f3321feed8441b51269e33c931a3c33d1f0817feabced6ea2e",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "path": "hardware/google/aemu/base/include/aemu/base/files/PathUtils.h",
+      "rule": "user-path",
+      "string_sha256": "0746ec627721cba4cc15935c75325f59713c5cb419f3720477af05b412cf6e0c",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "hardware/google/aemu/base/include/aemu/base/files/PathUtils.h",
+      "rule": "user-path",
+      "string_sha256": "ec2afc20384eac0569f566572c75851e63e30e7a06a130b58d5c044c6ac261d2",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "hardware/google/aemu/tools/toolchain/src/aemu/command_test.py",
+      "rule": "user-path",
+      "string_sha256": "8bfb181a855678a831f5a70768c420574a841e641e54c39a360a01e5bc488231",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "hardware/google/aemu/tools/toolchain/src/aemu/command_test.py",
+      "rule": "user-path",
+      "string_sha256": "788f2e214a460678aef4cce47ed0b08090ee44ae4ad7bb7deb36b3c07fb0e415",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "hardware/google/aemu/tools/toolchain/src/aemu/command_test.py",
+      "rule": "user-path",
+      "string_sha256": "0fac34af04d7e95f0e7313e8f0d31f05dc045dc68ab6f793fa6717800d1024f7",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "hardware/google/gfxstream/common/base/include/gfxstream/files/PathUtils.h",
+      "rule": "user-path",
+      "string_sha256": "0746ec627721cba4cc15935c75325f59713c5cb419f3720477af05b412cf6e0c",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "hardware/google/gfxstream/common/base/include/gfxstream/files/PathUtils.h",
+      "rule": "user-path",
+      "string_sha256": "ec2afc20384eac0569f566572c75851e63e30e7a06a130b58d5c044c6ac261d2",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "hardware/google/gfxstream/third_party/vulkan_docs/xml/vk.xml",
+      "rule": "realname",
+      "string_sha256": "0b79d36f7d59df1344a94aedbc13b082cf64e44fa59705582b58cde78c57da66",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "file_sha256": "1f65c36a1a1687fc829315cd46a0fc77bc00bd98ca51e05af92aa19be6b26a85",
+      "rule": "local-path",
+      "string_sha256": "bf47f42651bb16f653459ea40966b902f7827d38c3c16ed85cf6e7358c6d416d",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "path": "qtbase-everywhere-src-6.5.3/cmake/QtFeature.cmake",
+      "rule": "user-path",
+      "string_sha256": "7bbfa68ba5373d86dfac03d4951ead5330b36ba593490956066a89abc683fb28",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtbase-everywhere-src-6.5.3/cmake/QtSeparateDebugInfo.cmake",
+      "rule": "user-path",
+      "string_sha256": "5a70489d685da9a407fd345a93f60cd835f1396eb96dd119fc8eebc140906e1d",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtbase-everywhere-src-6.5.3/coin/instructions/prepare_building_env.yaml",
+      "rule": "user-path",
+      "string_sha256": "91f58007745de31597dc6af8da1c0dcf8f844108a99beb98b51300b4a01c77f7",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtbase-everywhere-src-6.5.3/coin/instructions/prepare_building_env.yaml",
+      "rule": "user-path",
+      "string_sha256": "f18584f222f1795ef4782a950ca9d917f11d8d72262f4f46b1f450329001f7b0",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtbase-everywhere-src-6.5.3/coin/instructions/prepare_building_env.yaml",
+      "rule": "user-path",
+      "string_sha256": "e8f371c9f43c274cda3c35862dfb9c937e1be078d486f85dc5b84a2395ae27f0",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtbase-everywhere-src-6.5.3/doc/global/snippets/code/doc_src_port_from_qregexp.cpp",
+      "rule": "user-path",
+      "string_sha256": "1cd212838129332fd5c851980a6b0abf6a2772ce9441e481c7252face71ab6a1",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "file_sha256": "337d267e8071595d3e393d61144d7fb0b8c5343c4df6dfdd5c72c423ca747cb5",
+      "rule": "local-path",
+      "string_sha256": "51cb28f13a6dea1f94be35ee72d3073374df166508a259acc333c9eaf5212365",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "path": "qtbase-everywhere-src-6.5.3/src/3rdparty/freetype/docs/DEBUG",
+      "rule": "user-path",
+      "string_sha256": "861dcb22e9c965b24847dd032a40d44129580e3b85d806418e2738cf65a54438",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtbase-everywhere-src-6.5.3/src/corelib/doc/snippets/code/src_corelib_io_qdir.cpp",
+      "rule": "user-path",
+      "string_sha256": "26adf435d1eb01527eaeca0532b321a6f1dd3311cf7c90507d4e4fdb8232fe7d",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtbase-everywhere-src-6.5.3/src/corelib/doc/snippets/code/src_corelib_io_qfileinfo.cpp",
+      "rule": "user-path",
+      "string_sha256": "6a7297ff67695d88e7a44496ffe3b0ab70039f985d7425452f79a6c6419debe1",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtbase-everywhere-src-6.5.3/src/corelib/doc/snippets/code/src_corelib_io_qfileinfo.cpp",
+      "rule": "user-path",
+      "string_sha256": "3bc83f6d3a9010b0520a482a02a887d217f9ca81fb2310e9d1dda69fbb4c51cd",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtbase-everywhere-src-6.5.3/src/corelib/io/qsettings.cpp",
+      "rule": "user-path",
+      "string_sha256": "fe181a093daee119334d50138d99e120f6d7e9cb5442f70a41d95100fef683ea",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtbase-everywhere-src-6.5.3/src/corelib/io/qstandardpaths.cpp",
+      "rule": "user-path",
+      "string_sha256": "5b888799a0e47a1765f61119538f834de8234dd0f0eecc93a021aca0bc091b2c",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtbase-everywhere-src-6.5.3/src/gui/vulkan/vk.xml",
+      "rule": "realname",
+      "string_sha256": "cf802cdbf57e4e318bbc588b451d3a7e0733be561b869b451cc44b76cdbd4e05",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtbase-everywhere-src-6.5.3/tests/auto/network/ssl/qocsp/certs/ss1-private.key",
+      "rule": "realname",
+      "string_sha256": "6bb35c30f60b8fd7ae2bf537d4d40198fb9951f7a5146a45dd24b5da5b27f6b4",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "file_sha256": "3bb5e05be1ac99dfb3c188941fffb68bc7b64f3cd2fddfd5e97770498d3a78d8",
+      "rule": "local-path",
+      "string_sha256": "5121afcb530f853e0e387a0a2c8d8aeab91faf5c60982ca2a164d6381a275a54",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "56329f3e3d2923ceb24581d6ed282a42c1ab7e0c65d4d7618138eaaaeec00136",
+      "rule": "local-path",
+      "string_sha256": "632ed2a962987f509e863897d2e4f790d2e1f05ae8083b09755f0b67f238b3e4",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "53baa3e39e87c72d147af4251b3744457e3871965e3aadb1b4fbe1bd8a4c69f2",
+      "rule": "local-path",
+      "string_sha256": "dfbf70acb26ff057e9aff3db3892e05d73bf4b120c6c066f625424b02564eb8b",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "30b8190f61c0f581baea8cfd5c4d5dae95a99956018c7694753adb4ab29ec300",
+      "rule": "local-path",
+      "string_sha256": "e7098da9a7433a0786c58a954ff0fb82388beddc9c02152c832d2f94bdcf3ae8",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/AUTHORS",
+      "rule": "realname",
+      "string_sha256": "38f9f91e0d15f86d0a0d3ade7dc089f533a762ab573ff068b016a0882a40d6e0",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/AUTHORS",
+      "rule": "realname",
+      "string_sha256": "c4da9984325868572984f15347b6210764b14b3e96ae4f772d967bce360adff9",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/AUTHORS",
+      "rule": "realname",
+      "string_sha256": "37403f319bfb21bf85bf78b4e89616ab2766f167b88c8fbb04ad09da8eedc0e1",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/AUTHORS",
+      "rule": "realname",
+      "string_sha256": "4ba5524dc2e09bb0548b046c2767079a549b31438872a09c83c4a5fef8845d77",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "file_sha256": "c6aaa0e66abc4bdff59368ebd7caa312c9201756c9120c30183441f07aa8cd1d",
+      "rule": "local-path",
+      "string_sha256": "9b9b14c504c07034e3bfa4047210dcc32ab0229254718e6a625b4859648d8514",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "c6aaa0e66abc4bdff59368ebd7caa312c9201756c9120c30183441f07aa8cd1d",
+      "rule": "local-path",
+      "string_sha256": "a74d52ecd9787242c4b05200b5f3f461954d8e7ae90dc14922c46c2a8dfbb61e",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "c6aaa0e66abc4bdff59368ebd7caa312c9201756c9120c30183441f07aa8cd1d",
+      "rule": "local-path",
+      "string_sha256": "5e5bb18f550f2273dd4c0afefd2d1f9f5801b6b3b53d96299893415ba566aa34",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "c6aaa0e66abc4bdff59368ebd7caa312c9201756c9120c30183441f07aa8cd1d",
+      "rule": "local-path",
+      "string_sha256": "607c671af1575fba905bfdfca14e89ea5240003157c04cfe347bfd50bf796d73",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "c6aaa0e66abc4bdff59368ebd7caa312c9201756c9120c30183441f07aa8cd1d",
+      "rule": "local-path",
+      "string_sha256": "a319378dda5e03c2e819a1f78cf7bff971dd9424be5dc21f4a863b165283d07c",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "c6aaa0e66abc4bdff59368ebd7caa312c9201756c9120c30183441f07aa8cd1d",
+      "rule": "local-path",
+      "string_sha256": "f6438e6534b02eeca1dea5586818092707aca60422b8d3909b5734bbffa0425b",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "c6aaa0e66abc4bdff59368ebd7caa312c9201756c9120c30183441f07aa8cd1d",
+      "rule": "local-path",
+      "string_sha256": "c5983fe4cf375f65386b88dcae74e3a8859bb934191b9e0a450f7b79f4643b41",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "c6aaa0e66abc4bdff59368ebd7caa312c9201756c9120c30183441f07aa8cd1d",
+      "rule": "local-path",
+      "string_sha256": "733fa0a772976499cfa21f66a2eb64756fd9e261298d010eca5134a954e305da",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "c6aaa0e66abc4bdff59368ebd7caa312c9201756c9120c30183441f07aa8cd1d",
+      "rule": "local-path",
+      "string_sha256": "6e267c2354cd0a9d95c86978e9c5e48db8be7afe173d5423962d3e61788ec2c1",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "c6aaa0e66abc4bdff59368ebd7caa312c9201756c9120c30183441f07aa8cd1d",
+      "rule": "local-path",
+      "string_sha256": "a6f27e1e360ba86277479dc3f6f2fe90db18cbe05ece12b584eb68d87166ea01",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/chrome/app/generated_resources.grd",
+      "rule": "user-path",
+      "string_sha256": "8f4a3b439e06a98e727e0ae55f00afd077b40ebbd061305d0acb06e5fed24fec",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/chrome/app/generated_resources.grd",
+      "rule": "user-path",
+      "string_sha256": "3367a4510af8c846be5ac42776f47785088f80c5f200b921e534e3c2f0398de7",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/chrome/app/generated_resources.grd",
+      "rule": "user-path",
+      "string_sha256": "48bd98a74174a7036b3fdbfecdd09c4f7039925e9fcdc1b659a18c3b619d7d78",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "file_sha256": "07cfbab58d48c39009e3803c043ad5e821205654000fe05275e107540b99ddb9",
+      "rule": "local-path",
+      "string_sha256": "4299560d21b03224e5f33ecb0df1811b67fe50485b8bd71283197e34aa43b1ba",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/chrome/browser/ui/webui/fileicon_source_unittest.cc",
+      "rule": "user-path",
+      "string_sha256": "f94e1411a966b2e8ea366af0c3d2973191379b04a19e786be61b224872f395b7",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/chrome/browser/ui/webui/fileicon_source_unittest.cc",
+      "rule": "user-path",
+      "string_sha256": "50493c8f90c90eac000dc12b107ff60ff0484aa7391768da5b7506c2d0b48932",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/chrome/common/chrome_paths_unittest.cc",
+      "rule": "user-path",
+      "string_sha256": "61391a89b2e2461e91e2392814654ba32fd219732f7128fb53dae42596e14e21",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/chrome/common/chrome_paths_unittest.cc",
+      "rule": "user-path",
+      "string_sha256": "3fb44dcc12054501808bdae417870681ac4b23ba3e85a0d46430cab74d742dc4",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/components/assist_ranker/OWNERS",
+      "rule": "realname",
+      "string_sha256": "cc54aab64689b51ea1dea391d89c8fecc29bc4c3e8d51e0c5f0371f8a284b9db",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/components/content_settings/core/common/content_settings_pattern_parser_unittest.cc",
+      "rule": "user-path",
+      "string_sha256": "d0f09d447e5ea04200408121bb29b5a59d7183756c13fe30e8a740878bd4fc64",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/components/media_router/common/media_sink.h",
+      "rule": "realname",
+      "string_sha256": "f0685170f189da8c0a0b5b4abec20413e16ed56c7ba8d39caf447c550534da06",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/components/media_router/common/providers/cast/channel/cast_channel_enum.h",
+      "rule": "realname",
+      "string_sha256": "3ff139788cfd694197f5def10e3de35802dc42f5daa82aa9d5498b5b5551528c",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/components/url_formatter/spoof_checks/top_domains/domains.list",
+      "rule": "realname",
+      "string_sha256": "1b723e27db6eb1ce147aaaf19a5e25c95a218d9d48d43ac0e57f1fbaa10167d9",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/components/url_formatter/spoof_checks/top_domains/domains.skeletons",
+      "rule": "realname",
+      "string_sha256": "2069a0bf545f1137b1503717adbe93ca892d5917625af5424ed7d990c05aa99f",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/components/url_formatter/url_formatter_unittest.cc",
+      "rule": "user-path",
+      "string_sha256": "914ce30aea6b0cdc16241e8a264529b0c1642c68887ed0c9ec741690bbd68abe",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/components/url_formatter/url_formatter_unittest.cc",
+      "rule": "user-path",
+      "string_sha256": "2ba3fcc8577cb5307537159ea76db59f25fd08bf2f6df4da30c04c966cdb2b39",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/components/url_formatter/url_formatter_unittest.cc",
+      "rule": "user-path",
+      "string_sha256": "43b89289abacd27c3c4cbde5d2b8acb24779e9d2cd5fa9b5ba87d2378b60a458",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/components/url_formatter/url_formatter_unittest.cc",
+      "rule": "user-path",
+      "string_sha256": "452df43e4423ccffe1027ccc891f74813254df6c47ddba93757754a52b961990",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/components/url_formatter/url_formatter_unittest.cc",
+      "rule": "user-path",
+      "string_sha256": "0f3e7d5dfb3f08f0944865b00a85d13a10dd35e737054126039a6d8cffd1715e",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/components/url_formatter/url_formatter_unittest.cc",
+      "rule": "user-path",
+      "string_sha256": "8aa0e18b90e316332fd8548f2122101275de62d14d4ad3423f336706f63f8cec",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/components/url_formatter/url_formatter_unittest.cc",
+      "rule": "user-path",
+      "string_sha256": "84e5c4db184e156f9e815b764ff27eda5f2cceaa71d1dd76b7c5c7e927c1de00",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/components/url_formatter/url_formatter_unittest.cc",
+      "rule": "user-path",
+      "string_sha256": "8e19ab08dcf94073658285f1c48c230297777bbd5ad0ad2b643e11d988fbb4ac",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/components/url_formatter/url_formatter_unittest.cc",
+      "rule": "user-path",
+      "string_sha256": "21c4e3dbeef4bbd8a43573a3ee534fde2a59036b940f7b784704a97df439c786",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/docs/updater/design_doc.md",
+      "rule": "user-path",
+      "string_sha256": "b73c0b22ea71838f5f10e262c95c584202ecf5f5ed38558a187cd1d02da96018",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/docs/updater/design_doc.md",
+      "rule": "user-path",
+      "string_sha256": "9adaa5544d7763684f6bc33f744308331dc53b9925ec42baf6b2000a0dedd4d6",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/docs/updater/design_doc.md",
+      "rule": "user-path",
+      "string_sha256": "eec9ad3ff717c40e470230114b66e2df4142e84d4a1265349d6d720ae928d7f2",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/docs/user_data_dir.md",
+      "rule": "user-path",
+      "string_sha256": "5fafed6afe9f3b3adce54ddb5ec0d94e1eb33fe8d4db8addd1ce94ca7a72cdee",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/docs/user_data_dir.md",
+      "rule": "user-path",
+      "string_sha256": "a2391dacf67f361cdc8473b0fd1f494bf46b51729103d6f13dd12347450f0a5a",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/extensions/browser/updater/extension_installer_unittest.cc",
+      "rule": "user-path",
+      "string_sha256": "64ed4b200ef44545bd02444fa1ec8b0d8698123b2d33f6fbd8f84d13e3c3d717",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/infra/config/groups/ios/OWNERS",
+      "rule": "realname",
+      "string_sha256": "02d0df38cb1c81344737675561d02633754252d48d226851833feff08ffd48bd",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/net/base/registry_controlled_domains/effective_tld_names.dat",
+      "rule": "realname",
+      "string_sha256": "1579c19032a43af8c6bd9a873c3a52ce0268d02833d68a1d4efeaae9a2f4a31a",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/net/cookies/site_for_cookies_unittest.cc",
+      "rule": "user-path",
+      "string_sha256": "e92943aac83f57f5d5308d0b4bf23702c08174a92d094152a082eb2c2c1292e3",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "file_sha256": "2a3729f66f1eaf3dd329a98879c0930bc0eef5deeadb38b5d4305fca5a71458a",
+      "rule": "local-path",
+      "string_sha256": "2d00ec67e69dba7f948f1e4452e236e47477bc709a27d6a8a0213f23161e1ac9",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/services/image_annotation/OWNERS",
+      "rule": "realname",
+      "string_sha256": "cc54aab64689b51ea1dea391d89c8fecc29bc4c3e8d51e0c5f0371f8a284b9db",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/testing/libfuzzer/fuzzer_support_ios/OWNERS",
+      "rule": "realname",
+      "string_sha256": "02d0df38cb1c81344737675561d02633754252d48d226851833feff08ffd48bd",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/testing/merge_scripts/code_coverage/OWNERS",
+      "rule": "realname",
+      "string_sha256": "02d0df38cb1c81344737675561d02633754252d48d226851833feff08ffd48bd",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/angle/doc/DebuggingTips.md",
+      "rule": "user-path",
+      "string_sha256": "fd9722dd603d30ee78faa82ed11f9f68e322160414324b3ac89e4f7ac5642941",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/angle/doc/DebuggingTips.md",
+      "rule": "user-path",
+      "string_sha256": "ff9460a0acc3bb8b8086d414022cad80654616c21e670e24be23995d30a06792",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/angle/doc/DebuggingTips.md",
+      "rule": "user-path",
+      "string_sha256": "489ca8fa3ef95ab616a7c571363bb4a23b4c59598fe86480913f0ad12bf19e3a",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/boringssl/src/third_party/wycheproof_testvectors/ecdsa_secp256k1_sha256_p1363_test.json",
+      "rule": "realname",
+      "string_sha256": "b870d647bd5cd00081924cae10e25d8656d3ef463b0c51f0a372b4b9a4012a6c",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/boringssl/src/third_party/wycheproof_testvectors/ecdsa_secp256k1_sha256_p1363_test.json",
+      "rule": "realname",
+      "string_sha256": "7eabe9b4f2257d849a3ff82decf01e9fc560f2f4b9c3ef17d99aa2853c0e78da",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/boringssl/src/third_party/wycheproof_testvectors/ecdsa_secp256k1_sha256_test.json",
+      "rule": "realname",
+      "string_sha256": "7eabe9b4f2257d849a3ff82decf01e9fc560f2f4b9c3ef17d99aa2853c0e78da",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/boringssl/src/third_party/wycheproof_testvectors/ecdsa_test.json",
+      "rule": "realname",
+      "string_sha256": "7eabe9b4f2257d849a3ff82decf01e9fc560f2f4b9c3ef17d99aa2853c0e78da",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/boringssl/src/third_party/wycheproof_testvectors/rsa_pkcs1_2048_test.json",
+      "rule": "realname",
+      "string_sha256": "80ba94398541547388b105ab6425d8db8276a6e1c33176732e9061b84f55724c",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/boringssl/src/third_party/wycheproof_testvectors/rsa_pkcs1_3072_test.json",
+      "rule": "realname",
+      "string_sha256": "56d8ce0046cb69d79689e66220e14faa6cae842b87e0f27c98c7f2b43cff59d5",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/boringssl/src/third_party/wycheproof_testvectors/x448_jwk_test.json",
+      "rule": "realname",
+      "string_sha256": "acd8071f6b603a32c76745ddb7b435908de4a52e9ea2685edc66c71bcc4c1cbe",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "file_sha256": "2ae50690e5ed601ead256fd9b528d8231b241b6729d24c96ef2feed30036efa4",
+      "rule": "local-path",
+      "string_sha256": "8839dcf08091c0724014eb6b6d630236ee4eaa0044a1dff0257621b66a2224b6",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "e463be9db36b76e15f79d9b872cb2ae93a28ba5532823a2510b19a6ce5ea4719",
+      "rule": "local-path",
+      "string_sha256": "85091d7ccae8e2f10b05985e6fdce2951fc6b7f66320b39aadaf60cb1da3bfda",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/catapult/third_party/polymer2/bower_components/mocha/CHANGELOG.md",
+      "rule": "realname",
+      "string_sha256": "dd7cc75fe90d2a2c7418825ab24f4d8bd69ad57e7c6813e8d9a390e2a18330e6",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/catapult/third_party/polymer2/bower_components/mocha/CHANGELOG.md",
+      "rule": "realname",
+      "string_sha256": "8d1cccadecb6dcae690f1cfec787640c3f415c55add53f5baebaeefa11f25b3e",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/catapult/tracing/tracing/metrics/buildbot_output_for_compare_samples_test.txt",
+      "rule": "user-path",
+      "string_sha256": "88787b59a86eca9bdb6edd3b16dafbe0dbf6abd755a325b41ff41d0ef0f44470",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/catapult/tracing/tracing/metrics/buildbot_output_for_compare_samples_test.txt",
+      "rule": "user-path",
+      "string_sha256": "0a86b45ccda3137ef2685ce00c8bfa65f66c38ac977784ec951b1228778196a3",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/catapult/tracing/tracing/metrics/buildbot_output_for_compare_samples_test.txt",
+      "rule": "user-path",
+      "string_sha256": "a41a9183222da79a77315abd9f87b639d5a440a2f72f9df8a400e512e18ffb31",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/catapult/tracing/tracing/metrics/buildbot_output_for_compare_samples_test.txt",
+      "rule": "user-path",
+      "string_sha256": "dfda1cf4bb8f7528dd0c69b48683153ffb7f4903db0f9d927aa16c44bec4bd76",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/catapult/tracing/tracing/ui/base/favicons.html",
+      "rule": "realname",
+      "string_sha256": "daa137bef3e3e29fbacc7a063b4738fad75e8fd44fb1ec470285c749e88ab37b",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "file_sha256": "665a9e5a507b7f4f9023dc1b9422e20dfe5476d58d68168a090af6987a7b8967",
+      "rule": "local-path",
+      "string_sha256": "9f4d7b3f423e94fb3a7574573917c90b9872d6ca9691115dcf80c6fb9a4f1ce2",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/devtools-frontend/src/docs/workflows.md",
+      "rule": "user-path",
+      "string_sha256": "33ec060c21f3765c7ba1f316db006eca37ce52b3be71ca953027e0d424838e03",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/devtools-frontend/src/front_end/third_party/codemirror/package/AUTHORS",
+      "rule": "realname",
+      "string_sha256": "5bad61d36fb4a453379206296c999a41d372c9b7cc0de5dbcf263c9d3d71211a",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/devtools-frontend/src/node_modules/@types/node/fs.d.ts",
+      "rule": "user-path",
+      "string_sha256": "3031f0042dd4b45241df170157bc84bee330b7d1fada0b60ab81122f86b7041b",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/devtools-frontend/src/node_modules/path-is-absolute/readme.md",
+      "rule": "user-path",
+      "string_sha256": "2c8a6da2ef839f69ef7965cd6c54cea9b5f5598b8f727ec4174008e95fba5206",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/devtools-frontend/src/node_modules/path-is-absolute/readme.md",
+      "rule": "user-path",
+      "string_sha256": "642452d0ab0986b9a660d4ba3221e11ebbc3012d931c9cfbf1aa723850cab355",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/devtools-frontend/src/node_modules/path-is-absolute/readme.md",
+      "rule": "user-path",
+      "string_sha256": "eccebe5cade698debfe2e7d2f933be1e6a234bf3362f98f8f63eae5fc3e4eab7",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/devtools-frontend/src/node_modules/regexpp/index.js.map",
+      "rule": "user-path",
+      "string_sha256": "84ad6527763b82893deaf5dca1d6fa763995c42d1d7b95a18f899a89222d6940",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/devtools-frontend/src/node_modules/regexpp/index.mjs.map",
+      "rule": "user-path",
+      "string_sha256": "1c57e8a8e91ce3fc17159b60ec6524a13575c74c74a8c528c3aca3ea74455eb4",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/devtools-frontend/src/node_modules/typescript/lib/tsserver.js",
+      "rule": "user-path",
+      "string_sha256": "f5a813d17b0107933ad0cd60373d5db1cb22663ec9d03d528391fd9a01cec19a",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/devtools-frontend/src/node_modules/typescript/lib/tsserverlibrary.js",
+      "rule": "user-path",
+      "string_sha256": "f5a813d17b0107933ad0cd60373d5db1cb22663ec9d03d528391fd9a01cec19a",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/devtools-frontend/src/node_modules/typescript/lib/typescript.js",
+      "rule": "user-path",
+      "string_sha256": "f5a813d17b0107933ad0cd60373d5db1cb22663ec9d03d528391fd9a01cec19a",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/devtools-frontend/src/node_modules/typescript/lib/typescriptServices.js",
+      "rule": "user-path",
+      "string_sha256": "f5a813d17b0107933ad0cd60373d5db1cb22663ec9d03d528391fd9a01cec19a",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/devtools-frontend/src/node_modules/typescript/lib/typingsInstaller.js",
+      "rule": "user-path",
+      "string_sha256": "f5a813d17b0107933ad0cd60373d5db1cb22663ec9d03d528391fd9a01cec19a",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "file_sha256": "9f67b190b006b71b331a66d9e17c789643c8acd49a4d39984c229fcb870e45eb",
+      "rule": "local-path",
+      "string_sha256": "5f91ca22f23c3f67a1bb6ca054d5a7ac2bb50086c11a06fbd1936526699d81c1",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "8973d40deedc69a27a8d9c166ad39d381b118bb6a068df482e0b6950e773619a",
+      "rule": "local-path",
+      "string_sha256": "44761541ccf24e38e4043b327ee792094f4d0a18c37b6fc006bf6aca23ab785e",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "233a250858c5b05aca234d4db99ffdeac5be9f997c6888ec5ff960bbd86ed5d7",
+      "rule": "local-path",
+      "string_sha256": "7785c764c03e4661d7f155b4954f36bc093713d0a2a729f829c7b53f00b919cf",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "46197de67d4db8309af1298af1d42fa15a01ac0962dded1e52477403f20bfcd7",
+      "rule": "local-path",
+      "string_sha256": "0ac344a6de0615751e0b4564299b2575879bbd311c81609b25d70bad0f8a7b53",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "ad2748e7e2ee8ac0516065f4b1148989aa39440b8b116a82de5f3cbe493a6b3d",
+      "rule": "local-path",
+      "string_sha256": "34c0f9b5e34ee6e6ff2baaa6b66c7ad89a7892b0ca316578a2542fbaa9443d17",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "25d5b3a36ed5aaf35b75609b4d45fe5dc9baeb0d262731e45f6e101deb73e2f4",
+      "rule": "local-path",
+      "string_sha256": "947124cf9947b58a4cccabbd20d1063a775aa0429bb29f45bec80e17e48b1bf6",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "0d59907fb132c4be6415daeaf8f0be8acb45eb2da7a652cd1891410bb27d2083",
+      "rule": "local-path",
+      "string_sha256": "726c1446564ce40ba377db34da6c9d2a1c7615d351f22601b596f32b92af513c",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "486995dbd598cb298beab4cfadb4af23fd069f7b4e9e2e6871d3f423933d7eaf",
+      "rule": "local-path",
+      "string_sha256": "c1a03acd5094ae5145303e608a02ad27f067eb13baea48195da2fa98bef300c6",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "e7df4af70c60886bc00422caefda6d43b802252576dbb3bad1fd9f92a1264bd9",
+      "rule": "local-path",
+      "string_sha256": "4c33b392ccc892016779a93acd549c6adc682e5e21ca2d95a26859963233c668",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "587eb66584da53682a8747a54a6c1563ab28dda830281b10386d4409faee6257",
+      "rule": "local-path",
+      "string_sha256": "e63047a7dbdd61c4e5cd2083bbf6dfc039df6742566a7adb47d0ae0eec316f83",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "305b28c193ee5f32439b0ac35ec9d851866b720ca0f73c2f3023849f8fbbfe56",
+      "rule": "local-path",
+      "string_sha256": "ce73cb3ead31dcd265d9ec5f1bf2d6efcfdfd3907f36dadea79c102d07623fd1",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "8b25b4f8c9d98e491cff343609cc22e6eb491601e3944632ad3e7ac4d207de35",
+      "rule": "local-path",
+      "string_sha256": "9a28be5161d12fc803d5e9357cdf4389605189ff336cf191e42806faeba86bda",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "049da9ef9ceda4b6f6ce8db56dbc3dcd34636ffebacabf1f4a6a41174100871f",
+      "rule": "local-path",
+      "string_sha256": "b18bd966bae1e9acb9f2ee10a75bcb4667ed9e53d10e7bb882a10a892fb1fda4",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "28b38046d42023890e3abaf4365603b63904a87b9da4b92af9deb5f4d7eacd2d",
+      "rule": "local-path",
+      "string_sha256": "d1439d1a7b15d5ec7af1288d152dd1652d95d2e7249de62a616d085a6f71e0d9",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "d39a8d4c5889711b5febc9b145fa72b2f3f088974ccd13457c34563148f9fe1b",
+      "rule": "local-path",
+      "string_sha256": "0787d2e04b7c224e33dab2523ec07b0925fc9f974f6954ca995e445e7398cff9",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "8b1baea5ab433b5eab0c80aa0026a63b517001174c343edc6f51457cb41c7e0d",
+      "rule": "local-path",
+      "string_sha256": "30f13ac7e610144acb69a03cc6a624ab3ffe2b523dbcdda174a2a79206f7bfbe",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "3b63e27fcfa8b3e48a528b0acb634e564b8949f9fb3207531cbab400b15b9c97",
+      "rule": "local-path",
+      "string_sha256": "73bd7433c8109ca0ad5b2d2eb751640504f1ff38b02abb9b33812997edeca961",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "e6752f32b76e41a18350b15c6e0fd3d72ddaf5772c4e8a82bd4f841ec54969b2",
+      "rule": "local-path",
+      "string_sha256": "b18975381011e9273f67a383c4a962c176a1a3a8cf3edf2606221e5ebd0588b4",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "5dbf79dfe97b1efe9938612f973a1ae6318b503bc19c72a239781b9e1b1993ec",
+      "rule": "local-path",
+      "string_sha256": "aee8c8652c36d72870373b76305d4e64161e85efa9a03740a53142a0f032ffa3",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "a2bb704a43e7d740c4c187924aa1fe70234cc3a9fca64c1afcdc4a35c306f8f3",
+      "rule": "local-path",
+      "string_sha256": "75d7bebfd94b6718763993692c76298b3bc999fd14cd940094effbbe85224792",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "d3fee348fcac6bfe20488e03d097c767b904fc43ceec253fab0f269449149595",
+      "rule": "local-path",
+      "string_sha256": "cea3aca2097709e1e6298833a5b6dabd0eeb069de2f999d6238a93b0f4fdf2d1",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "126b2fedd4e9b8db38f9bbf95d1da9a72785181be50d84991917bd6716eca5cb",
+      "rule": "local-path",
+      "string_sha256": "e4c77a46e886d31311273aa4aa153018831f5f325cf5f4e28ed687c403f5ca5b",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "5a8a15e3c32fa876c416aa48363eb1d3ef65e1158710cdd4793a72d9408f61c1",
+      "rule": "local-path",
+      "string_sha256": "41bea092f3985c3f5212b863644f93710b42c32450ab2fc045fcceb80f10309b",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "e70a3048149c550f5f851bec1b452501100dcbe6aa49398dee6b8d990d1b239e",
+      "rule": "local-path",
+      "string_sha256": "43d294318ba74df772e64f4da3990663ccdd0786550614ffb25fcd251a1d0a57",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "f37c386f3ee6ba871663ffef6896b928b7e9ae8a2a8eb1a98da3bb1b97c1f13c",
+      "rule": "local-path",
+      "string_sha256": "9dbf8aea42d5270b78c6d11c25720cb583458ebc25c7af29f940a03fbd98a247",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "6ccab183c6272f0ba0ff742aecd82fe7ac000787a9ae423899ec3f644daeaa74",
+      "rule": "local-path",
+      "string_sha256": "4f00f55b575712d31ed900e830527f7957bda19c7804594a48c36c22b7ce6831",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "2cfe4891e418c571e4afd636a3243d468961d68c7cf1614d6724c3818c49f1bb",
+      "rule": "local-path",
+      "string_sha256": "830cbdc6eb382631ec04b62ed9ecdaf9005b92ea1ccffdb342b1ac0bc344340f",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "c6d3d3312586d547186009358ec79ea8be237aa8adb76c1032e340b06f182352",
+      "rule": "local-path",
+      "string_sha256": "229f7fdb6d8d00f4af7d447b0e0cc52d842d31ba8ae87267632caa91036a9526",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "e0b7604b821b0c43cac105677fe74861111585b4bd924b85d75db85f7cd84f41",
+      "rule": "local-path",
+      "string_sha256": "505cad0df7ff661c99d1bf45f551fe9638bbfa37e6dd791b62e8e4374c34e7e3",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "f8a0dc046c6c700204abdb79482867c463ac4736dee09796bfd627e0bf0cbf26",
+      "rule": "local-path",
+      "string_sha256": "988eb2a6b932dec0aac823080d84547608ebd241a91b096455459638cfe97d41",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "e26da4d234650b101bf16292e0c75764e0dd38cad91281c965fd2c7d40a7adf0",
+      "rule": "local-path",
+      "string_sha256": "995e2be1e1ca60734638648815ec80a53fc70769978778e47b2863bc06a20c6f",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "c44c56bf40e1bc2ed8a9d9a3624e270df774d42b4d187985b894e40dfbec1bb0",
+      "rule": "local-path",
+      "string_sha256": "d5386153526c6911bf1079f6b5b8027b43411263bef9ece8c09a6b10eeb1508d",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "098c6aab908bc7d254baa8f68ae8b979ff46cd2d5082da410970484f27720216",
+      "rule": "local-path",
+      "string_sha256": "a13c019f45fa57ea2a79d735945e5d39759a3bb4aa841c7ce247160587c4ca25",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "c3200129628f432c760e2010879483a764b5356a1825a828343afdac774eb88c",
+      "rule": "local-path",
+      "string_sha256": "1ba1231ece950ee0e53f8be3b685eec9d39cd8f8ec5514b48108b68224f6fef4",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "c2bdaff40baa5b717e730fac7b1e088a4aef0b031e1cdab0f22902eb2c4bfda9",
+      "rule": "local-path",
+      "string_sha256": "9085464975175ced98ebdb79679b34baa93378026d0a158d1f864f29dffa5252",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "1b6b99f2ef91447347d2b195b18c6f4ba8eb5cad949ccec1c0d9ca46c08251ce",
+      "rule": "local-path",
+      "string_sha256": "77b932d1549261cb6855ec27777b060466f8edd77be10b4961cce5c58a2a6822",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "41f901d489037e01acc8a6fd23b29a22deaa02bd767b5787d3728a572bce4b0e",
+      "rule": "local-path",
+      "string_sha256": "a90c25bdceab87b1da6cdc170d723520cba13b277a076f46c6c2f23e6696a996",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "95cc123f5fa48812d42ddf78001744a887e9c07c3494204ad3be69175a98a7ea",
+      "rule": "local-path",
+      "string_sha256": "2663d4f7177740fde1ded08bbf37c9e673865e91f6f008dd9e808574aed47783",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "31a7042ff9005da40e8554232917f5216981d93fefb83b90e3db8701c151c465",
+      "rule": "local-path",
+      "string_sha256": "08feb8b1da68ae4201bec9453a71b19986d31f83a61c4a626f7f8993f179a5f9",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "50ce62cdbc1b67ecb08d2985d9a3c8857d1601cc64d3c5be53f4e71f34a15f34",
+      "rule": "local-path",
+      "string_sha256": "21f058c8867c7c4bc41ca0ca3cc0c29ac51c6c31379889ddd6c6eb965a3b389c",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "027f4ac2256a33a97367a9809d28e79abf57d6193cae40d1c7798cca511ff9bb",
+      "rule": "local-path",
+      "string_sha256": "2bd88f5a5d867832526439eacb3c4726fe556848df0cf311600330a1eea103fe",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "4c5bbbfa7d34c195a0e9962b64b9916c11d52b89e6baa6ffe5a117fc56875446",
+      "rule": "local-path",
+      "string_sha256": "6c2abac14efcb4822af5bdfe1437b1d330da97a47ba95aeb045f7064fe6b4dd2",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "7a132999acfa74588bf05d0ab5f0fb3f7996dbdc75530f256432f29ba192a1cf",
+      "rule": "local-path",
+      "string_sha256": "14550e873888fdf8aa7e6c835d8de463566c7300d89299b619794f9d9b14d149",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "b4d4a8bfa5fa33411770dbab437145fdb3f96ac30bb11f300059344222b04f36",
+      "rule": "local-path",
+      "string_sha256": "78eb563e986cb2db442af1e86d267b2d98044cb541a250ab0aa8f79dacfa602e",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "949f249f804b9a7208dba9cdbac79724c2fb9aae3ef8087407f0ae270f613f2b",
+      "rule": "local-path",
+      "string_sha256": "d4420ca4dc736fe94b3f428516cb133c27c6f2a97fbdf824d7b7241bb84bd934",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "39a72abd228f9347dc495eb34c28ef834c06286157be673ebc5469d886a48cd5",
+      "rule": "local-path",
+      "string_sha256": "b3c10d6869353af2e4cb21a8a00e1c03d9f9222a64db83b93e1a46ad44ec1044",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "4c4cf734cbeebfd39f4721aa2681f2111c74173f7fd127061fdd158d2a816e2b",
+      "rule": "local-path",
+      "string_sha256": "d29a7903e7163d89e701d387f2c03bf1dcbec895ee44ec28e9a0df948ba5c638",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "d8918569d77c66a9d65715b3925f27bfb985dac0843608c0e5fbf1e5568fa430",
+      "rule": "local-path",
+      "string_sha256": "d4a727b1de893de3bfeaad28db06e6047b1f4629ccb07dd6d621c67aa56603b0",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "c468c778380fd3ae664f98c2bfd60ce41c108313ba536e01e6cafb8fd466a0e8",
+      "rule": "local-path",
+      "string_sha256": "013729f0eb3b7e2698c384e4ce1e77e6e289255b3bf1fbebbda9192571c447d3",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "3650d758d39e9f13e07d049d2847d18fb304991370d89f2314e74d147207ab3a",
+      "rule": "local-path",
+      "string_sha256": "d18e49f3b3d489a69a7e29539bc12893315b9461d3dba2363667a824a85c4ff5",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "ed1e7015fc957d45e02c22261a6d10aff43a012228dcac0889c0c24776e09ee5",
+      "rule": "local-path",
+      "string_sha256": "f67cdcd0606907b2bef053233bdb67a25a6d4b433bd6bcf1fcf311597f7d486d",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "f0ea9483a4ee4e8dc8de4c1932b5141b718d3c7913b9f2d3f464f54cc4902737",
+      "rule": "local-path",
+      "string_sha256": "cc6f8ed696be4ea6eee609c5b5e5e684e6a3c33e69d3bbb32a0afc522bc4b2fe",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "1e253a22eb1b614a599cb26dc465f655f07227f2e761589b080c3f7adb7a412f",
+      "rule": "local-path",
+      "string_sha256": "1660efd57aafb5485125f6975d4663a565f0734c33e70d794dd25aa1fbcbb58f",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "b23c0308ff100d1f6f69419f3c7411a3b07f92ccafd9bf1549ca350ee87fcacd",
+      "rule": "local-path",
+      "string_sha256": "5a01d839d16b71351f9a3af5bb356494764c683ea159490a3536ef975b3aa7ca",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "b52bb746942b4ea7d1dc002355102250ada7d522a7c417541127e5b82b2bc05d",
+      "rule": "local-path",
+      "string_sha256": "12b80f6389d9faac731d5f55e633cd36a4aa8d3c9b4bc13e4830705e7aad3f39",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "e4bf60df5b3ebcebd53b48bdcc0753a6f7ec1957b67c046ea1fd36b5e8226696",
+      "rule": "local-path",
+      "string_sha256": "08707a7bb2dc4ee65bee66ce13c3e85de5563f3759601db15b748ea95e099a1a",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "4814111e569a689b4a722e449aa373043cd3ae00f345cdfc08e23c93b8946f62",
+      "rule": "local-path",
+      "string_sha256": "47382ae85f130080378712d55a5f3e8b3aec437884f0d646e45f66109562243d",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "2eea1a965ee0815f81b2e6d2a97fdb72dec4e681d2a0acef824c1fe3c7f3fdf7",
+      "rule": "local-path",
+      "string_sha256": "3789acac8269be0cf6ea8fa024002363dc5ab962b4918ad3444e5122dd397bc1",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "368cb13bdb527847028624428f9f8c90c7a010ff4e042a2e33d48826797f27fe",
+      "rule": "local-path",
+      "string_sha256": "cc7e9d3493ab8c96e0b89384cf9d2e19d9d9b105d77dfabf3777347718751e4d",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "9a11669cb9bb408dc30617f4dd69a0e2decb6ff1802654bbf66063a1dba2994f",
+      "rule": "local-path",
+      "string_sha256": "beeb1f3b59afcdf0d85a856273af3978e5056346c3b6a7cf9172f34e81abb9ea",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "4f97c426c33aa7416b3eb8a8c8221eddf001e824f3ebf2c6545f5676a75e56f6",
+      "rule": "local-path",
+      "string_sha256": "89801be899bf4c11a7f943bcc4f683d97d34a89b0887c9380f0c3a5263d33b9b",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "83b4b48e52577d24da1814bb57eb5dc7243ccccab4759627efb6e19d15f28666",
+      "rule": "local-path",
+      "string_sha256": "f94e8720c0ec88d953030f8fd55dae871c2954221d2e844f3077766283569006",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "208de9d179a89608dea041cbc35c74a3ee1ada8cc9dfbe33fe9eb3836bc74c42",
+      "rule": "local-path",
+      "string_sha256": "ff7aa8c033fc4234b340147683cd4c850acffd3ab1816e9e29c9e6025f4ecfbb",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "46c5e3b1cb9ed1272fef4c8a1dffa11c621047c0c4b08ca2624f473238aa25ea",
+      "rule": "local-path",
+      "string_sha256": "f49cb5b9b7a86f237669d762be51c000eb6cafd6c02b59578b06438d4d27d4b2",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "36b32ef41e7743b495a96dca1a4807895c0a1920d2ec1aa50fbe8b427e94b263",
+      "rule": "local-path",
+      "string_sha256": "d9afdb67caefde8e7364101f04b3f6599cac6e7053db6028bfabdf6bf6b10718",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "163a7f1bba742b762203cb5d3efba8227ceee3efae7540fb99b805ee94d98f3e",
+      "rule": "local-path",
+      "string_sha256": "242925504d7ec8793285dc8150abc5669f47d5b39fc888e78f05fca9c8a0fdc1",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "a56c68c30eafd1bb8e2380854a6c7d92feba925eaebe0e55549cad2c175449fe",
+      "rule": "local-path",
+      "string_sha256": "46e0a5c07a4a4ac0dfa7b6ce44de1abec5676b353df415fd3de83045111ce19c",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "e632a788c61151d91506426ac2c340de665defb10c7225781bfa44ffb404d171",
+      "rule": "local-path",
+      "string_sha256": "5a63b936f9398a13a17f8c6986c0673d2be1174fa63c493c044c0b6ee020d8f4",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "13aaeef4812a331d0bc1434f32385e960dd8c328f74c762b15ec72b6ee156666",
+      "rule": "local-path",
+      "string_sha256": "c846b09cd1640f4eb2910f4a2ee0dbb57f8a9616cfcb750ec3e35bc1e7b6f215",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "5447f00e572f4220144a95dce62125d78d73aacc4438a62fa976a148823f525b",
+      "rule": "local-path",
+      "string_sha256": "51221a7f7664d86bed2464008ce52a1c02ccdc409d72dd73d5a76424082db471",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "51fcff962fc383580e454116e5391e28121548d3549a19c0e7b4fc9f097ce42c",
+      "rule": "local-path",
+      "string_sha256": "b376fed354cb06e72863748d1190d20444fcb295bcd4e9b7a4d94b2ce0b930f4",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "5596f7e642309ad0affe4d6b6a699c2bcda3112af4734c496f9ec6173a7895de",
+      "rule": "local-path",
+      "string_sha256": "61ae1c279459c52f0012cab99a8b9cf6681cb1bc3f298c3f0693956d86346c51",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "d68ddd32ad106c5420038b9dde72313bc592007b4df244483099911bd880952a",
+      "rule": "local-path",
+      "string_sha256": "024cb377535620ce119599fd0f8f4e7997c099be43caf5a9fa12282a8574fb86",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "f1f1c670316ecf2fdb5eef90f47061478d9bdf61943359dfe52928157fbdc1ad",
+      "rule": "local-path",
+      "string_sha256": "7825327833d86912715eb270b3f5274d15bcc9adde90885b0c262b6538c8b34b",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "67b6a097aaf456b85dcd05ac771bab106716787552fc14e8e876d43e96aec362",
+      "rule": "local-path",
+      "string_sha256": "bd98f473599b5beadcfd79ae00ba46ebbfe6adcc89ff21520161ca7b26d6f90c",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "79e57e96bacaaca40f94dd149e51626a7ad84e5deaa9329e8161207705b77351",
+      "rule": "local-path",
+      "string_sha256": "305ede4c923bf666f062244dae51f063439dbf322ec5f3466f59f6fb8086646b",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "0a5ac934df3408dd6f2a142c71d0de6d039151fb07cb95dcb1410d5ba5aaf38d",
+      "rule": "local-path",
+      "string_sha256": "63a483024db56a4836a69b9dbca8ddddf49160d12fb41c27af5c86de1257171b",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "f9e321be0648ef99c2f5f3d83ec6ed3ff1cc8e70f830d88cb49439f09c8065fa",
+      "rule": "local-path",
+      "string_sha256": "a0f3553571e047b77c095a1419e115a7644db838cc85ea869520c9bc3eeaaef6",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/eigen3/src/debug/lldb/eigenlldb.py",
+      "rule": "realname",
+      "string_sha256": "59ac61518c77815aa9455d83178f2580d134520464a842ee652fba0f9f67ecdd",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/ffmpeg/MAINTAINERS",
+      "rule": "realname",
+      "string_sha256": "976ccd9ed897a620100eee0435a154df056afb2b3682cee1a8ab6b3cf4067023",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/ffmpeg/MAINTAINERS",
+      "rule": "realname",
+      "string_sha256": "47378684fa19392b02ac60e774c05471b53913c440dd05507360a32c5ba89294",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/ffmpeg/doc/examples/hw_decode.c",
+      "rule": "realname",
+      "string_sha256": "7befde786dafe1b28f843339adc505f3d0def3643ce2cdb552262b8c37bd68c6",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/ffmpeg/libavcodec/avs2.c",
+      "rule": "realname",
+      "string_sha256": "d09bc98308cf17f526184412cc04be94edcae3e1aec6d3c4daead2ae1c198387",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/ffmpeg/libavcodec/avs2.h",
+      "rule": "realname",
+      "string_sha256": "d09bc98308cf17f526184412cc04be94edcae3e1aec6d3c4daead2ae1c198387",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/ffmpeg/libavutil/dovi_meta.c",
+      "rule": "realname",
+      "string_sha256": "0bd565d942570bc8d38dc702dc17bb2d88200befdfea7cf631e6461f138086d9",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/fontconfig/src/README",
+      "rule": "realname",
+      "string_sha256": "7a4961200364cddbc3e8db1275cd6eee6f44a6b2a3a0458502285ece6e84c47d",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "file_sha256": "4266cb92eab0f45450fc154c3207420e8c31b3035eeb7b59b4f544da26e40235",
+      "rule": "local-path",
+      "string_sha256": "0cf3fc1594432be381e5b929193c8f1696c429d6b7cd5990e826103f7a6b384c",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/freetype/src/docs/DEBUG",
+      "rule": "user-path",
+      "string_sha256": "861dcb22e9c965b24847dd032a40d44129580e3b85d806418e2738cf65a54438",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "file_sha256": "d86533b9d03c7234603da2c2d224db733f3d388577fcccaad66b78eaa5f6cc22",
+      "rule": "local-path",
+      "string_sha256": "ac64c39b5f7ec7af16d6861cd5979bd9473062e0e9e35b4de9d1f26ad6a60900",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/google-closure-library/scripts/ci/ie_setup.bat",
+      "rule": "user-path",
+      "string_sha256": "2ca2df0b1908c2857567229c88968ccd31c794385db18cb9ed7b0451f51ada7e",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/google-closure-library/scripts/ci/ie_setup.bat",
+      "rule": "user-path",
+      "string_sha256": "8a30413910aea11335008f3d276a84e7d84e53802496740c021f7a239274efec",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/icu/source/data/translit/Hani_Latn.txt",
+      "rule": "realname",
+      "string_sha256": "8c21267eb5e7612c9107f7bdecfde113a2e5640f698b4b9bfcfaf14dd0913b3d",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/icu/source/data/translit/Hani_Latn.txt",
+      "rule": "realname",
+      "string_sha256": "f6c7bbe9eb6eee343be7b901a0cfb226b850edd73cfb1f9b7df00bc15302172e",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/icu/source/data/translit/Latn_Bopo.txt",
+      "rule": "realname",
+      "string_sha256": "0269090e92189a481749d4f8d5e132d36cdff74cc0ad4ef9130899b944af46ab",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/icu/source/data/translit/Latn_Bopo.txt",
+      "rule": "realname",
+      "string_sha256": "e4982d9f14420d715928e693487cd2c80287d7fada8aca067a6d56bf487b8c77",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/icu/source/data/translit/Latn_Bopo.txt",
+      "rule": "realname",
+      "string_sha256": "dcc3df7d344785d53a9a19411a07141fc5c8e3ba58927a3859760bec58bc6079",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/icu/source/data/translit/Latn_Bopo.txt",
+      "rule": "realname",
+      "string_sha256": "3621c32b123a69eb2d52740ce9895ca7e762243a7a3501beb545efd192c0c670",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/icu/source/data/translit/Latn_Bopo.txt",
+      "rule": "realname",
+      "string_sha256": "c6ebe605600ca1cd5bfaa14cccab99f359538513731935b044ad6dc278050e43",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/icu/source/data/translit/Latn_Bopo.txt",
+      "rule": "realname",
+      "string_sha256": "58182ccfa3186cfbbb3c32663b6f60aecd0a5b794aa2155ea5ae6d2015f85245",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "file_sha256": "3e0b3917aed17cc0cafd5f341532e9f1a36158f7513ea6f0675856ca5f5c4fae",
+      "rule": "local-path",
+      "string_sha256": "08ce2060ca6380ca29646cf0ec9374119db9fe5627dad69d41d3271a1b909e27",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/libaom/source/libaom/AUTHORS",
+      "rule": "realname",
+      "string_sha256": "1bfff9f35de8fbdde17bb42eab1ba9cb8222d91272a5a461a03291ff770c68ab",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/libaom/source/libaom/AUTHORS",
+      "rule": "realname",
+      "string_sha256": "ebab639e4b6d0a13ebd445f8fd6968b9096ff1d639b4877d2bfb1f45e688111e",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/libaom/source/libaom/AUTHORS",
+      "rule": "realname",
+      "string_sha256": "e4593ea7f32dade6dc1fac34d6da1e35beb3cc6cf9656fcbeeee489336266e60",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/maldoca/src/maldoca/ole/ole_to_proto_test.cc",
+      "rule": "user-path",
+      "string_sha256": "dc980e95e151dc72277d184e2f5a25c03dd1f547ceab028400dfd421cb63872a",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/node/node_modules/typescript/lib/tsserver.js",
+      "rule": "user-path",
+      "string_sha256": "f5a813d17b0107933ad0cd60373d5db1cb22663ec9d03d528391fd9a01cec19a",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/node/node_modules/typescript/lib/typescript.js",
+      "rule": "user-path",
+      "string_sha256": "f5a813d17b0107933ad0cd60373d5db1cb22663ec9d03d528391fd9a01cec19a",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/openh264/src/CONTRIBUTORS",
+      "rule": "realname",
+      "string_sha256": "d24bad65839c687605de13d3b56ae62237d51e24403d279626526b3bc651b8ca",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/openh264/src/CONTRIBUTORS",
+      "rule": "realname",
+      "string_sha256": "a0a1c5645e048736d75311660925f8a8bff4e80ccd178593f2bd48ef930017fa",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/openh264/src/autotest/performanceTest/ios/iFileTransfer",
+      "rule": "realname",
+      "string_sha256": "cfbe231f0114196ec48db1dec7bee88c4cff236ac3190df93a0a626f991ffae5",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/openh264/src/autotest/performanceTest/ios/iFileTransfer",
+      "rule": "realname",
+      "string_sha256": "c76405506de807a2cc60fdc55d34ff7adaa1a8dc97a00cf77e46d78e1684fd5d",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/openh264/src/autotest/performanceTest/ios/iFileTransfer",
+      "rule": "realname",
+      "string_sha256": "8db82824adf1c31e88c9c283397050a9c8c2511228486e803be3acafc81d92f9",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/openh264/src/autotest/performanceTest/ios/iFileTransfer",
+      "rule": "realname",
+      "string_sha256": "e099f3929d9529f849baaa15586988ae25937c42da45c262897d0c093ff7745e",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/openh264/src/autotest/performanceTest/ios/iFileTransfer",
+      "rule": "realname",
+      "string_sha256": "2bb932621a5bcd9ad003bfb02773e338d573db063888d9c6f02b77d7a4c76f32",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/openh264/src/autotest/performanceTest/ios/iFileTransfer",
+      "rule": "realname",
+      "string_sha256": "a66044162d96489018322d16e28b7bb9d22d657aa94a6accd5b94a47ef4a3905",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/openh264/src/codec/build/iOS/dec/demo/demo.xcodeproj/project.pbxproj",
+      "rule": "realname",
+      "string_sha256": "565e5bf8fe1182ad498880f408221c21c8c2c4d8f3486a7d9d3ce419fa6f6c6e",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "file_sha256": "b8c9c07507b6cbc8d86db0a4a9ed9dadff1748b5f522ed83673e23393174f4a1",
+      "rule": "local-path",
+      "string_sha256": "17fa050fa68ee6c5e7282534a23a81932c18517d79cabe7cd1925da2bd9f759e",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/rust/camino/v1/crate/src/lib.rs",
+      "rule": "user-path",
+      "string_sha256": "2f1162971e29f1a6c682bb5dc18ae880e7b73f4af38d6488267441ddc943c2c0",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/rust/clang_sys/v1/crate/build/common.rs",
+      "rule": "user-path",
+      "string_sha256": "7941971a48af9d973d60b10a81da385de5583f4f617254b38680a673c9dcffdc",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/skia/go.sum",
+      "rule": "realname",
+      "string_sha256": "9d982a6b8055fdfe4fe4494361cb6d0e61e873f0ecf68951e7853ad87db587b5",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/skia/go_repositories.bzl",
+      "rule": "realname",
+      "string_sha256": "b4577fd9fe2988f9bf766cd00e67c31e93b1c0962ff8737cefcb3863c24d5246",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "file_sha256": "366747aa6ccfc18390b510281c9f07adfc95085cd87f5197186987d4b8fd6972",
+      "rule": "local-path",
+      "string_sha256": "4e90009a2c055adef5653175fee838c7e4d9f6a748f3d7248c75f29e63bf6934",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/tensorflow-text/src/tensorflow_text/python/benchmarks/test_data/uncased_L-12_H-768_A-12/vocab.txt",
+      "rule": "realname",
+      "string_sha256": "4ba739741e69e5d4df6d596c94901c58f72c48caaf8711be6fead80e2fa54ddd",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/tflite_support/src/tensorflow_lite_support/metadata/java/src/javatests/org/tensorflow/lite/support/assets/mobilenet_v1_1.0_224_quant.tflite",
+      "rule": "realname",
+      "string_sha256": "25c8ed14d09e97779edbee671dcb588a0249a75d5544d5e437f413f78b553cc5",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/tflite_support/src/tensorflow_lite_support/metadata/java/src/javatests/org/tensorflow/lite/support/assets/mobilenet_v1_1.0_224_quant.tflite",
+      "rule": "realname",
+      "string_sha256": "9e599c4ae7887df68a57408431220ab38348b3b74d8ef9ed2da93ca96c25b4e4",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/tflite_support/src/tensorflow_lite_support/metadata/java/src/javatests/org/tensorflow/lite/support/assets/mobilenet_v1_1.0_224_quant.tflite",
+      "rule": "realname",
+      "string_sha256": "be28465f870d2f3cecbb233af4cdaef376418bf73858e2bbe85687886b6e9d98",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/tflite_support/src/tensorflow_lite_support/metadata/java/src/javatests/org/tensorflow/lite/support/assets/mobilenet_v1_1.0_224_quant.tflite",
+      "rule": "realname",
+      "string_sha256": "794dc5d29edeebd627f44ea37e73d9bc89894aac5bebdc1fc08e7614094d1f41",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "file_sha256": "d3949e8a3556c79739cb675e0be7476503bcce76938031c6a1048e13e0cb7d8b",
+      "rule": "local-path",
+      "string_sha256": "6efeb75bbe9c006c900735851c6e4d481446313b0d795442c105cfba3dd570d0",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/tflite_support/src/tensorflow_lite_support/metadata/java/src/javatests/org/tensorflow/lite/support/assets/mobilenet_v1_1.0_224_quant.tflite",
+      "rule": "realname",
+      "string_sha256": "c53fc885358f97d154da503458f39d8dbe3b98b7aaf31bc919b08a8068eced46",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/glslang/src/Test/baseResults/hlsl.pp.line4.frag.out",
+      "rule": "user-path",
+      "string_sha256": "fec114b4b90bf0ee9734c8f2f3e4d83db274fc69ba84ae330cbe4a43fa4932fe",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/glslang/src/Test/baseResults/hlsl.pp.line4.frag.out",
+      "rule": "user-path",
+      "string_sha256": "caa9bbcdd3c24d71144f641ce49f46a7a1a8da78ab361dbdfe1b19f49905c6d5",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/glslang/src/Test/baseResults/hlsl.pp.line4.frag.out",
+      "rule": "user-path",
+      "string_sha256": "c1ee7bfb3444cb46c2a7035885880563ac0ebb7b50f02035d4f830bd8328bb53",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/glslang/src/Test/baseResults/hlsl.pp.line4.frag.out",
+      "rule": "user-path",
+      "string_sha256": "4936b12dab1a1d293c6280d6683d4a7187f61f0f0962bbc3740f462320004546",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/glslang/src/Test/baseResults/hlsl.pp.line4.frag.out",
+      "rule": "user-path",
+      "string_sha256": "f8177f37d4af67bafb2c6986837f589e9519d89e9ad21b76a44fd314012faeab",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/glslang/src/Test/hlsl.pp.line4.frag",
+      "rule": "user-path",
+      "string_sha256": "c1ee7bfb3444cb46c2a7035885880563ac0ebb7b50f02035d4f830bd8328bb53",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/glslang/src/Test/hlsl.pp.line4.frag",
+      "rule": "user-path",
+      "string_sha256": "4936b12dab1a1d293c6280d6683d4a7187f61f0f0962bbc3740f462320004546",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/glslang/src/Test/hlsl.pp.line4.frag",
+      "rule": "user-path",
+      "string_sha256": "f8177f37d4af67bafb2c6986837f589e9519d89e9ad21b76a44fd314012faeab",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-headers/src/registry/vk.xml",
+      "rule": "realname",
+      "string_sha256": "cf802cdbf57e4e318bbc588b451d3a7e0733be561b869b451cc44b76cdbd4e05",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-loader/src/loader/loader.aps",
+      "rule": "user-path",
+      "string_sha256": "5a51e2275abce0abe716dcdc5632315b1146c81f9dcf85668b163a42a69c60e4",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "dca6b9c9fcaf4109980a9ffb4c4fcc740fccd2e5b75351736fca76cd03e03dbc",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "1450cb9d0c48a862a8115fa655a0c351b9613b9e0b8e82974f49cb4d52057a7a",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "04e60f07dd30a935f5635e400f233f90f85f8da549770aed17f988cb3530baf4",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "155d707407c9ea9844858bf187f91a9931e3e5a306284cf2ec508e47b9f8bc36",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "33701408359632a41d1dd1f3e5367616e78b0c0e099cadf659172ad33c48f133",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "4ab1bc58791b29100df05c313cd0b3fcba176c946f12da4123aa21d47f06cab1",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "d22840ff8cf03baead678dd5cef0f7ab5c3813de2dceed7d8340c10061ff69c8",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "71727bb0a7d46e615acedbd951dda1fd6f4fdb75adef9b7c685954cbe462538f",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "295dcfd0e6d5264ed0e04322ae51337f89d563be0411a21078cf7276bdfb1530",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "30b5d1a53a8e9951d5841bbd452072be3c5716ba0490c0fe070ee51305f375d2",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "fa859fe132d813dab8fd630fa96ec0c00c087b258f423f24974c2ba66e6585a0",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "c31660bb432050a49841c1331eceafc3c832939e1138af86234f639a1efaa74c",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "46335bfcc9da07c738e7fbd031b7e5a211db481d3aaa76f3c051f7b08e499d76",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "8ddae950866412b11c4fcf4e1628c33377f0d7d58bd7733e358a00eac39d455a",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "62f042514ab94c322bc6bb7427ab808af8e506153047859254def733afbdf52b",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "840ce09e592a6791ea48fcde5aa44c0bd21861e2c2255d61eb700745afedec3e",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "a6fddf773e9136f2dd1fdd4174e7e112771f65e54425418f7b4a8939105339b4",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "1803b563abbf3fc50afdaaa98dac506b775cfe90b626d2702f9a359159dfbf17",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "77f59913a69129d1e00edaba6f1eb6a8a698f664ba409abfbdac1cf36d394679",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "c252c312cb5f6fdb33766c8e97b81c743de7666fd2908c4c87c5cf168e62729d",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "e2e366280fa855a72302a9794d98bcc5509261c67ad970230f318faa182354ab",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "5b456ab3d002c8a6c8a7ad713e7b15ae410c9cc578d2133c1f4ddc34e558d3f3",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "bf81039e927ca5b2160768882e3f3bea189486bdc0ff2cdbb3ab280313a4ffb7",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "8e7ee263e7dc068e0454e1ed6791d897944ebeafc47905af8ba50fdccb3f53b0",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "2d9b973605143328485f9939287133b5da7f51e12809cd4226568ecc72e5e499",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "ad0659e9437ce0cb1456bc032f253a4161586226ef0be266740aee6e52c6a63d",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "49e64488b31a0659fdac8335e809481eb1f9580fab253260fb8032bb07f79cf5",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "75d8ff9f44121e52f0903f5d12b0a5803c2f5a07ee657029d593d0703af63dfd",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "60a55be2a3c449db055189931979c9a2fdddfe0611ecb280127156d4cb716342",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "858e4771d3e6a0311f753452d05cf4c7ee6236b090a49cf88db8dbd5aebdccf1",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "316adc997b21a9bde05cf9a4108b0caf8e4c8fcf72aa04fe158dc493bc4f2b61",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "50bf28f1eb31be86b59dddfc0c2c8d75d39a8d46e5f87854410abd8ae1031eef",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "7e1a3ce02b316e6d1346b386f33a213c4c25d20a59077688d47c1e207086c24b",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "77bbd0119cb4fda334cfc16ec0b579f1711fbeaeac5e8bf29cd282e53b4906b7",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "27a0d28e950f5576fe36f42b2043a42d30d8d66c8386a50bef3fa5d3e3d85274",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "dd82546bf609993f87f25d19a06836b0625a45209ef0a3cf8bbcc74ffd62117e",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "9db673dde1d2a10216ec8bb8eaab0193f5071f3f90d3dce0dec1c7b63311619e",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "b4e0ddf479edba3b66c7582871967691c1506f3628f1247f0878c0f70f90a850",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "48608059e676001f09328312496da40b69f8698ca96e3bb7d98d25549ebb1385",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "bd0838b38c52679af36643693301ebe46ceca6a2b28426a5d63335a63e4ae23f",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "c4157e1443471ce42f29807b63d0fb200c359a8bc668f133b6cbf2f57426d3a7",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-tools/src/vulkaninfo/iOS/vulkaninfo.xcodeproj/project.xcworkspace/xcuserdata/lunarg.xcuserdatad/UserInterfaceState.xcuserstate",
+      "rule": "user-path",
+      "string_sha256": "7295a66f82e7f8670370990ab0747fcfce9856d1ff75cbbeefe2cddb23a441f4",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/vulkan-deps/vulkan-validation-layers/src/layers/core_validation.cpp",
+      "rule": "realname",
+      "string_sha256": "ef907942e948d3bcaa7853f952674daeda981890812a768b5168475cb4f6a9c0",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/webgpu-cts/src/src/unittests/getStackTrace.spec.ts",
+      "rule": "user-path",
+      "string_sha256": "208437e1412b109e9e6e95914227b537cd8775e507d30e1bec9652623f8341d9",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/webgpu-cts/src/src/unittests/getStackTrace.spec.ts",
+      "rule": "user-path",
+      "string_sha256": "a27dbe4de49c4e79a3d9d986389237368664b58224b50b77a54a590d1b8fa751",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/webgpu-cts/src/src/unittests/getStackTrace.spec.ts",
+      "rule": "user-path",
+      "string_sha256": "07d605f01b85e1099f619c979eafbd74c8cb9dde652b4987c2898cf5377e581a",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/third_party/webxr_test_pages/webxr-samples/proposals/opencv/opencv.js",
+      "rule": "realname",
+      "string_sha256": "1a10496c4d01651a2e335de708702115303e939482d9f84af1e10324cdbb0efa",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/tools/accessibility/nvda/README.txt",
+      "rule": "user-path",
+      "string_sha256": "82af35160709ad2f0cc755abb63ee90d576cffcf41ceeb38deec168b999f9d57",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/tools/clang/scripts/OWNERS",
+      "rule": "realname",
+      "string_sha256": "670526f11b74c60d54fab48321770f9e29fb06362806e8c8cb7d421f1ad52964",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "file_sha256": "ac3b056f487d11a1d5ce56f64e23a2170e5d384481c173d5fe1674ff6b3b32be",
+      "rule": "local-path",
+      "string_sha256": "8e8e1578a93377dd571445a036c3f77df8e0102b2cde90f8db159f842fc98dbb",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "ac3b056f487d11a1d5ce56f64e23a2170e5d384481c173d5fe1674ff6b3b32be",
+      "rule": "local-path",
+      "string_sha256": "3853929340d20b80b59b4ae1957d6165c031ef73e19d7ad31841d52eedc0fe03",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "a93139a51bc23853a334b303a2c3e93bc9d5467b8c7e3d315e56564bce204713",
+      "rule": "local-path",
+      "string_sha256": "0da97d5739d719e5b8ebbeafbc701ed3a8357dbe325246dd5b5e9b27c9336ff3",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "a93139a51bc23853a334b303a2c3e93bc9d5467b8c7e3d315e56564bce204713",
+      "rule": "local-path",
+      "string_sha256": "4626c4ae42d13b1d4e2009bfce9242563cba57e31e36723e49fdec219e8550b6",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "a93139a51bc23853a334b303a2c3e93bc9d5467b8c7e3d315e56564bce204713",
+      "rule": "local-path",
+      "string_sha256": "2c9313ceaab753ad4bae3c4358a9699c2b72e566d3e2f131538c033ce7948235",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "a93139a51bc23853a334b303a2c3e93bc9d5467b8c7e3d315e56564bce204713",
+      "rule": "local-path",
+      "string_sha256": "266ffc305e575b4823b4f6c8d442dea94a4c638fe8d84978bf57a3dc52596455",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "a93139a51bc23853a334b303a2c3e93bc9d5467b8c7e3d315e56564bce204713",
+      "rule": "local-path",
+      "string_sha256": "7041d8f309c6e144d50f3795a7f68505b43c25d8f59c1f573e9d69206003bfe9",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "a68656958951d3fa8284a204132b0f66eaa4a38db762660c5aadba40d7b34dac",
+      "rule": "local-path",
+      "string_sha256": "caec2ef01f2f88033dbb6bb06c6029dbd072b91cb63df71598cfdc9b401dd312",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/tools/mac/power/pages/spam_tasks.html",
+      "rule": "user-path",
+      "string_sha256": "02e4281ff7e3477db5ba984eaf2dcba9c1913fcc54a97939679b3fc940522074",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/tools/metrics/histograms/metadata/apps/histograms.xml",
+      "rule": "realname",
+      "string_sha256": "c8b830860bfbe0d8451f6463d9367d2e87d69aa9685ac9ccc565997c425f3a0a",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/tools/metrics/histograms/metadata/chromeos_hps/histograms.xml",
+      "rule": "realname",
+      "string_sha256": "c8b830860bfbe0d8451f6463d9367d2e87d69aa9685ac9ccc565997c425f3a0a",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/tools/metrics/histograms/metadata/content/histograms.xml",
+      "rule": "realname",
+      "string_sha256": "c8b830860bfbe0d8451f6463d9367d2e87d69aa9685ac9ccc565997c425f3a0a",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/tools/metrics/histograms/metadata/cros/histograms.xml",
+      "rule": "realname",
+      "string_sha256": "c8b830860bfbe0d8451f6463d9367d2e87d69aa9685ac9ccc565997c425f3a0a",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/tools/metrics/histograms/metadata/cros_ml/histograms.xml",
+      "rule": "realname",
+      "string_sha256": "c8b830860bfbe0d8451f6463d9367d2e87d69aa9685ac9ccc565997c425f3a0a",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/tools/metrics/histograms/metadata/network/histograms.xml",
+      "rule": "realname",
+      "string_sha256": "acd8859a91b3813fb1babd12f7aef11af70b15db05c1ff40bbecd95bd303c5c8",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/tools/metrics/histograms/metadata/obsolete_histograms.xml",
+      "rule": "realname",
+      "string_sha256": "c8b830860bfbe0d8451f6463d9367d2e87d69aa9685ac9ccc565997c425f3a0a",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/tools/metrics/histograms/metadata/others/histograms.xml",
+      "rule": "realname",
+      "string_sha256": "c8b830860bfbe0d8451f6463d9367d2e87d69aa9685ac9ccc565997c425f3a0a",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/tools/metrics/histograms/metadata/power/histograms.xml",
+      "rule": "realname",
+      "string_sha256": "c8b830860bfbe0d8451f6463d9367d2e87d69aa9685ac9ccc565997c425f3a0a",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/tools/metrics/histograms/metadata/search/histograms.xml",
+      "rule": "realname",
+      "string_sha256": "c8b830860bfbe0d8451f6463d9367d2e87d69aa9685ac9ccc565997c425f3a0a",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/tools/metrics/histograms/metadata/tab/histograms.xml",
+      "rule": "realname",
+      "string_sha256": "c8b830860bfbe0d8451f6463d9367d2e87d69aa9685ac9ccc565997c425f3a0a",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/tools/metrics/structured/structured.xml",
+      "rule": "realname",
+      "string_sha256": "c8b830860bfbe0d8451f6463d9367d2e87d69aa9685ac9ccc565997c425f3a0a",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/tools/symsrc/README.chromium",
+      "rule": "user-path",
+      "string_sha256": "cbc200424a021863d72cb3e89e567e7eda9bcce9f48ff3eb153b463ea3dff419",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/tools/symsrc/README.chromium",
+      "rule": "user-path",
+      "string_sha256": "7e3808b372eb02da8e103070d3a9f15826fd0b124a94a36a56afad74bc2d5deb",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/tools/win/CreateTempFilesPerfEvaluation/ReadMe.txt",
+      "rule": "user-path",
+      "string_sha256": "718035e8d217a1d95f2fbf760000c67f25a7380a86abaefa10474a14fdc97a0e",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/tools/win/CreateTempFilesPerfEvaluation/ReadMe.txt",
+      "rule": "user-path",
+      "string_sha256": "654bfeec6a14ec39bf772e18eab426f03e68ebfd629f6e26f295977d9fbb3195",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/tools/win/CreateTempFilesPerfEvaluation/ReadMe.txt",
+      "rule": "user-path",
+      "string_sha256": "7b259bcc9d9bcada3d7b2efd0fce0d7d762d98f038fdcdf0cce89ff123f0bf4f",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/tools/win/CreateTempFilesPerfEvaluation/ReadMe.txt",
+      "rule": "user-path",
+      "string_sha256": "f8fc3eb3194d5ac028ece78c1bbe22388015a544bff5dbef507d291e03e593c7",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/tools/win/CreateTempFilesPerfEvaluation/ReadMe.txt",
+      "rule": "user-path",
+      "string_sha256": "b9607c915ed281b64b38627a75afd791fc547928960b5b57e8367cc99c2e9514",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "file_sha256": "6543975c10c864f9d190b4a46a1a2b6dbc40146c0a32a69beb2e85df29f1c0c7",
+      "rule": "local-path",
+      "string_sha256": "55d70ea8247d8c3b9563811430efb4c7dee8bbbc83970cb999bd95f162042d11",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "file_sha256": "97efae00dee07ad6c431f84dc8e1a955e48759c5dc09417528b792202bf5dca8",
+      "rule": "local-path",
+      "string_sha256": "6e70f6f6d4897e1e17c931804cade9e4d2f7f70de33915a512adcfc303198f02",
+      "reason": "Reviewed unchanged upstream binary, certificate, fixture, or example; exact file and complete printable string SHA-256."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/v8/AUTHORS",
+      "rule": "realname",
+      "string_sha256": "6c7f5e4b8a90a041f3c4094a0b3d17da5932c0c486ce391389174929ced3a6ac",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/v8/AUTHORS",
+      "rule": "realname",
+      "string_sha256": "624910c55a325f9bfcdf9164fb27971bd34ee6ef780a7d1e1e477802b15fe16a",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/v8/LOONG_OWNERS",
+      "rule": "realname",
+      "string_sha256": "83bcd46d16ff2c01c2464c8332b8ee711a8e1e4e12c36536e784bd7388c9fb21",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/v8/MIPS_OWNERS",
+      "rule": "realname",
+      "string_sha256": "83bcd46d16ff2c01c2464c8332b8ee711a8e1e4e12c36536e784bd7388c9fb21",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/v8/include/v8-internal.h",
+      "rule": "realname",
+      "string_sha256": "13995ec85bb42aff1ec9da8cc12052979abb4419f8fa7727159f9da1e79ab6ae",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/v8/src/compiler/graph-assembler.cc",
+      "rule": "realname",
+      "string_sha256": "e9443410ce0be70fd91caa06f32d857abc254d99d5215eeb723acbaae12cec5f",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/v8/src/compiler/js-create-lowering.cc",
+      "rule": "realname",
+      "string_sha256": "2b2a28eb626757d69ac38cb490504c12e4bbf1eeeb89e64de0990f4a6a51e93d",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/chromium/v8/src/objects/objects.h",
+      "rule": "realname",
+      "string_sha256": "13995ec85bb42aff1ec9da8cc12052979abb4419f8fa7727159f9da1e79ab6ae",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "qtwebengine-everywhere-src-6.5.3/src/3rdparty/gn/src/gn/switches.cc",
+      "rule": "user-path",
+      "string_sha256": "8f0968871c17d28ce6ced37f13b83d21cff73c270449f9294e01c40244031bc6",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "tools/netsim/guide/src/ui/assets/orthographic_view.gif",
+      "rule": "realname",
+      "string_sha256": "f3588deb6f20e885dc73858734c3eb8f06e934bff1e5e110ec92e2b5132764f3",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    },
+    {
+      "path": "tools/netsim/ui/package-lock.json",
+      "rule": "realname",
+      "string_sha256": "a774c6f69aa31e8dc9e81f8ce8a42d35e380f2c33a0a2d00f5dbc601047e0910",
+      "reason": "Reviewed upstream attribution, vocabulary, encoded test data, or documented upstream example; exact file path and complete printable string."
+    }
+  ]
+}
