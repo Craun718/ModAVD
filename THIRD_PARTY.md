@@ -14,7 +14,7 @@
 
 ## 要随附源码的（GPL / LGPL）
 
-完整对应源码在同一个 Release 的源码附件里。
+完整对应源码在同一个 Release 的源码包（`ModAVD-37.2.10-mas30-sources.zip`）里。
 
 | 组件 | 版本 | 许可证 | 怎么用 | 在哪些文件里 |
 |---|---|---|---|---|
@@ -29,7 +29,7 @@
 | iPXE | QEMU `roms/ipxe` 0600d3ae | GPL-2.0-or-later | 固件 | `lib\pc-bios\efi-*.rom` |
 | QEMU 选项 ROM、键盘映射 | 同 QEMU | GPL-2.0 | 固件和数据 | `lib\pc-bios\*.bin`（上面以外的）、`lib\pc-bios\keymaps\` |
 
-Qt 的预编译文件来自 AOSP，Google 没有记录对应的确切提交，所以源码附件里放的是 Qt 6.5.3 官方源码；AOSP 的 Qt 构建脚本 `android/build/python/aemu/prebuilts/qt.py` 在 QEMU 仓库的源码包里。
+Qt 的预编译文件来自 AOSP，Google 没有记录对应的确切提交，所以源码包里放的是 Qt 6.5.3 官方源码；AOSP 的 Qt 构建脚本 `android/build/python/aemu/prebuilts/qt.py` 在 QEMU 仓库的源码包里。
 
 ## 宽松许可证
 
@@ -53,7 +53,7 @@ Qt 的预编译文件来自 AOSP，Google 没有记录对应的确切提交，�
 
 - **出处**：AOSP `prebuilts/android-emulator-build/common` 的提交 `beacdbe588c2`「Frontend-disabled Netsim BID 16317532 for emu-37-2」。
 - **源码**：由 Google 用 Bazel 从 `platform/tools/netsim` 的 `f113660da2a5`（Netsim 1.0.23）编出。我们随附的是 Google 的 frontend-disabled 版，和公开源码的区别只有一处：`--no-cli-ui`（关掉给命令行工具用的 gRPC 服务）默认为 true。Google 没有公开这一行改动；用公开源码编出的 netsimd 运行时加 `--no-cli-ui`，行为相同。
-- **GLib（LGPL-2.1-or-later，静态链接）**：确切是 GLib 2.82.2 上游包，加上 `platform/build/bazel` 提交 `862d0ec34f27` 里的 `registry/modules/glib/2.82.2.bcr.5.aemu` 模块（构建文件和 3 个补丁）。不是源码附件里的 `external-glib`（那是 2.77.2，属于 `libglib2_windows_msvc-x86_64.dll`）。
+- **GLib（LGPL-2.1-or-later，静态链接）**：确切是 GLib 2.82.2 上游包，加上 `platform/build/bazel` 提交 `862d0ec34f27` 里的 `registry/modules/glib/2.82.2.bcr.5.aemu` 模块（构建文件和 3 个补丁）。不是源码包里的 `external-glib`（那是 2.77.2，属于 `libglib2_windows_msvc-x86_64.dll`）。
 - **随附的对应源码**：`glib-2.82.2.tar.xz`、`build-bazel-862d0ec34f27-glib-2.82.2.bcr.5.aemu.tar.xz`、`build-bazel-862d0ec34f27.tar.xz`、`tools-netsim-f113660da2a5.tar.xz`。用 netsim `f113660d` 加 build/bazel `862d0ec3` 可以重建行为一致的 netsimd，并换上修改过的 GLib 重新链接。
 - **其他组件**（按程序里留下的源码路径）：netsim 本身、Rootcanal、Casimir 是 Apache-2.0；gRPC、Abseil、BoringSSL、protobuf 同上表；libslirp（BSD-3-Clause）、{fmt}（MIT）；Rust 标准库（MIT OR Apache-2.0）。
 - **57 个 Rust crate**：来自 `platform/external/rust/android-crates-io`（pica 来自 `platform/external/rust/pica`）。版本按 android-crates-io 在 Google 编这一版时的 main（`83e064e564e8`）确定，程序里每个 crate 的源码路径在这些版本里都对得上。多数是 MIT 或 MIT OR Apache-2.0；`grpcio`、`grpcio-sys`、`pica` 是 Apache-2.0；`ring` 0.17.2 是它自己的 LICENSE（ISC 风格 + OpenSSL / SSLeay 许可证）；`icu_collections`、`icu_normalizer` 是 Unicode-3.0；`jiff` 按 MIT 用。
