@@ -1,0 +1,227 @@
+name: Automated Windows build
+
+# The selected runner must provide Python 3.12, Git for Windows, Developer Mode,
+# and Visual Studio 2022 Build Tools 17.14 with ATL, MFC, and Windows SDKs.
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'patches/**'
+      - 'manifests/**'
+      - '.github/workflows/build.yml'
+  pull_request:
+    paths:
+      - 'patches/**'
+      - 'manifests/**'
+      - '.github/workflows/build.yml'
+  workflow_dispatch:
+    inputs:
+      runner_label:
+        description: Windows runner label that has the ModAVD build prerequisites
+        required: false
+        default: modavd-windows
+      source_root:
+        description: Short, persistent path for the AOSP source and incremental build
+        required: false
+        default: C:\ModAVD-CI\src
+      build_id:
+        description: Value written to Pkg.BuildId in the emulator bundle
+        required: false
+        default: mas-ci
+      parallel_jobs:
+        description: CMake parallel jobs; use no more than 16
+        required: false
+        default: '12'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: modavd-build-${{ inputs.runner_label || 'modavd-windows' }}
+  cancel-in-progress: false
+
+jobs:
+  verify-source:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - name: Checkout without persistent credentials
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - name: Validate release metadata
+        run: python3 scripts/checks.py metadata
+      - name: Scan tracked files
+        run: python3 scripts/privacy.py .
+
+  build:
+    needs: verify-source
+    runs-on: ${{ inputs.runner_label || 'modavd-windows' }}
+    timeout-minutes: 480
+    env:
+      BUILD_ID: ${{ inputs.build_id || 'mas-ci' }}
+      PARALLEL_JOBS: ${{ inputs.parallel_jobs || '12' }}
+      SOURCE_ROOT: ${{ inputs.source_root || format('{0}/modavd-src', runner.temp) }}
+    steps:
+      - name: Checkout build recipes
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+
+      - name: Validate build inputs and prerequisites
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+
+          if ($env:GITHUB_WORKSPACE -and ($env:SOURCE_ROOT -eq $env:GITHUB_WORKSPACE -or
+                  $env:SOURCE_ROOT.StartsWith($env:GITHUB_WORKSPACE + [IO.Path]::DirectorySeparatorChar))) {
+              throw "source-root must be outside the checked-out build recipes"
+          }
+          if (-not [IO.Path]::IsPathRooted($env:SOURCE_ROOT)) {
+              throw "source-root must be an absolute Windows path"
+          }
+
+          if ($env:BUILD_ID -notmatch '^[A-Za-z0-9][A-Za-z0-9._-]{0,63}$') {
+              throw "Invalid build ID: $env:BUILD_ID"
+          }
+          if ($env:PARALLEL_JOBS -notmatch '^[1-9][0-9]*$' -or [int]$env:PARALLEL_JOBS -gt 16) {
+              throw "parallel-jobs must be between 1 and 16"
+          }
+
+          $pythonVersion = (python --version).ToString()
+          if ($pythonVersion -notmatch '^Python 3\.12\.') {
+              throw "Python 3.12 is required; found $pythonVersion"
+          }
+
+          git --version | Write-Host
+          python --version | Write-Host
+
+      - name: Download the pinned repo launcher
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $repoTools = Join-Path $env:RUNNER_TEMP 'repo-tools'
+          New-Item -ItemType Directory -Force -Path $repoTools | Out-Null
+          Invoke-WebRequest -Uri 'https://storage.googleapis.com/git-repo-downloads/repo' `
+              -OutFile (Join-Path $repoTools 'repo')
+          "REPO_LAUNCHER=$(Join-Path $repoTools 'repo')" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8
+
+      - name: Sync the pinned AOSP source tree
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+
+          $env:GIT_CONFIG_COUNT = '3'
+          $env:GIT_CONFIG_KEY_0 = 'core.autocrlf'
+          $env:GIT_CONFIG_VALUE_0 = 'false'
+          $env:GIT_CONFIG_KEY_1 = 'core.symlinks'
+          $env:GIT_CONFIG_VALUE_1 = 'true'
+          $env:GIT_CONFIG_KEY_2 = 'core.longpaths'
+          $env:GIT_CONFIG_VALUE_2 = 'true'
+
+          New-Item -ItemType Directory -Force -Path $env:SOURCE_ROOT | Out-Null
+          Set-Location $env:SOURCE_ROOT
+
+          python $env:REPO_LAUNCHER init -u https://android.googlesource.com/platform/manifest -b emu-main-dev --depth=1
+          if ($LASTEXITCODE) { throw 'repo init failed' }
+          Copy-Item (Join-Path $env:GITHUB_WORKSPACE 'manifests/manifest-aosp-base.xml') `
+              (Join-Path $env:SOURCE_ROOT '.repo/manifests/manifest-aosp-base.xml') -Force
+          python $env:REPO_LAUNCHER init -u https://android.googlesource.com/platform/manifest `
+              -b emu-main-dev -m manifest-aosp-base.xml --depth=1
+          if ($LASTEXITCODE) { throw 'pinned repo init failed' }
+
+          python $env:REPO_LAUNCHER sync -c --no-clone-bundle -j4
+          if ($LASTEXITCODE) { throw 'repo sync failed' }
+
+      - name: Replay patches
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $env:GIT_CONFIG_COUNT = '3'
+          $env:GIT_CONFIG_KEY_0 = 'core.autocrlf'
+          $env:GIT_CONFIG_VALUE_0 = 'false'
+          $env:GIT_CONFIG_KEY_1 = 'core.symlinks'
+          $env:GIT_CONFIG_VALUE_1 = 'true'
+          $env:GIT_CONFIG_KEY_2 = 'core.longpaths'
+          $env:GIT_CONFIG_VALUE_2 = 'true'
+          $env:GIT_COMMITTER_NAME = 'ModAVD CI'
+          $env:GIT_COMMITTER_EMAIL = 'actions@users.noreply.github.com'
+          $series = Get-Content (Join-Path $env:GITHUB_WORKSPACE 'patches/series.json') -Raw | ConvertFrom-Json
+
+          foreach ($entry in $series) {
+              $repoPath = Join-Path $env:SOURCE_ROOT ($entry.repo -replace '/', '\')
+              $patchPaths = Get-ChildItem -Path (Join-Path $env:GITHUB_WORKSPACE `
+                      ('patches/' + $entry.dir)) -Filter '*.patch' |
+                  Sort-Object Name | ForEach-Object FullName
+
+              if ($patchPaths.Count -ne $entry.count) {
+                  throw "Patch count differs for $($entry.dir): expected $($entry.count), found $($patchPaths.Count)"
+              }
+
+              git -C $repoPath switch -C modavd-ci $entry.base
+              if ($LASTEXITCODE) { throw "branch reset failed: $($entry.dir)" }
+              git -C $repoPath am --keep-cr @patchPaths
+              if ($LASTEXITCODE) { throw "patch replay failed: $($entry.dir)" }
+
+              $tree = (git -C $repoPath rev-parse 'HEAD^{tree}').ToString()
+              if ($tree -ne $entry.tree) {
+                  throw "Replayed tree differs for $($entry.dir): expected $($entry.tree), got $tree"
+              }
+              Write-Host "Patch replay OK: $($entry.dir), $($entry.count) patches, tree $tree"
+          }
+
+      - name: Build release distribution
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $env:PYTHONUTF8 = '1'
+          $env:CMAKE_BUILD_PARALLEL_LEVEL = $env:PARALLEL_JOBS
+          $env:PATH = "${env:ProgramFiles(x86)}/Microsoft Visual Studio/Installer;$env:PATH"
+
+          $out = Join-Path $env:SOURCE_ROOT 'objs'
+          $dist = Join-Path $env:SOURCE_ROOT 'dist'
+          Set-Location (Join-Path $env:SOURCE_ROOT 'external/qemu')
+
+          python android/build/python/cmake.py --out $out --dist $dist `
+              --task-disable clean --task-disable removeleftover --task-disable prebuilts `
+              --task-disable ctest --task-disable emugentest --task-disable genentriestest `
+              --task-disable coveragereport --task-disable packagesamples `
+              --task-disable zipintegrationtests --task-disable integrationtest
+          if ($LASTEXITCODE) { throw 'build failed' }
+
+      - name: Stage emulator bundle
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $emulatorDir = Join-Path $env:SOURCE_ROOT 'objs/distribution/emulator'
+          $sourceProperties = Join-Path $emulatorDir 'source.properties'
+          if (-not (Test-Path $sourceProperties)) {
+              throw "Build output is missing $sourceProperties"
+          }
+
+          $properties = Get-Content $sourceProperties -Raw
+          if ($properties -match '(?m)^Pkg\.BuildId=.*$') {
+              $properties = $properties -replace '(?m)^Pkg\.BuildId=.*$', "Pkg.BuildId=$env:BUILD_ID"
+          }
+          else {
+              $properties = $properties.TrimEnd() + "`nPkg.BuildId=$env:BUILD_ID`n"
+          }
+          Set-Content -Path $sourceProperties -Value $properties -NoNewline -Encoding Ascii
+
+          $artifactDir = Join-Path $env:RUNNER_TEMP 'modavd-build-artifacts'
+          $zipPath = Join-Path $artifactDir "ModAVD-$env:BUILD_ID-$env:GITHUB_RUN_NUMBER-windows-x64.zip"
+          New-Item -ItemType Directory -Force -Path $artifactDir | Out-Null
+          Compress-Archive -Path $emulatorDir -DestinationPath $zipPath -CompressionLevel Optimal
+
+          $bundle = Get-Item $zipPath
+          $sizeMiB = [Math]::Round($bundle.Length / 1MiB, 1)
+          Write-Host "Emulator bundle: $($bundle.FullName), $sizeMiB MiB"
+
+      - name: Upload emulator bundle
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: ModAVD-${{ inputs.build_id || 'mas-ci' }}-${{ github.run_number }}-windows-x64
+          path: ${{ runner.temp }}/modavd-build-artifacts/*.zip
+          if-no-files-found: error
+          retention-days: 14
+          compression-level: 0
